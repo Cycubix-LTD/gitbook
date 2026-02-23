@@ -31,6 +31,4 @@ Our courses cover from general information security awareness, through to practi
 
 Visit [**Cycubix.com**](https://cycubix.com/) to find out more.
 
-{% content-ref url="application-security-series/" %}
-[application-security-series](application-security-series/)
-{% endcontent-ref %}
+
