@@ -1,3 +1,10 @@
+---
+title: "A6:2021 | Vulnerable and Outdated Components (7) | Cycubix Docs"
+layout: default
+nav_order: 7
+parent: "A6:2021 | Vulnerable and Outdated Components | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # A6:2021 | Vulnerable and Outdated Components (7) | Cycubix Docs
 
 ### How do I generate a Bill of Materials <a href="#how_do_i_generate_a_bill_of_materials" id="how_do_i_generate_a_bill_of_materials"></a>

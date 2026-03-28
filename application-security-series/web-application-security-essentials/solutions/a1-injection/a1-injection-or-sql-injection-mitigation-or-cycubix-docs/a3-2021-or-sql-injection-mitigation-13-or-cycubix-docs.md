@@ -1,3 +1,10 @@
+---
+title: "A3:2021 | SQL Injection Mitigation (13) | Cycubix Docs"
+layout: default
+nav_order: 13
+parent: "A3:2021 | Injection | SQL Injection Mitigation | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3:2021 | SQL Injection Mitigation (13) | Cycubix Docs
 
 ### Least Privilege <a href="#least_privilege" id="least_privilege"></a>

@@ -1,3 +1,10 @@
+---
+title: "A6:2021 | Vulnerable and Outdated Components (10) | Cycubix Docs"
+layout: default
+nav_order: 10
+parent: "A6:2021 | Vulnerable and Outdated Components | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # A6:2021 | Vulnerable and Outdated Components (10) | Cycubix Docs
 
 ### Architecture Information <a href="#architecture_information" id="architecture_information"></a>

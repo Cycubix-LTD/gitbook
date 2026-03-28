@@ -1,3 +1,10 @@
+---
+title: "A3:2021 | Cross Site Scripting Mitigation (5) | Cycubix Docs"
+layout: default
+nav_order: 5
+parent: "A3:2021 | Cross Site Scripting Mitigation | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3:2021 | Cross Site Scripting Mitigation (5) | Cycubix Docs
 
 ### Reflective XSS <a href="#reflective_xss" id="reflective_xss"></a>
@@ -69,17 +76,17 @@ Try to prevent this kind of XSS by escaping the URL parameters in the JSP file:
 
 * Hint: You do not store the user input in this example. Try to encode the user's input right before you place it into the HTML document. We need to make use of JavaServer Pages Standard Tag Library (JSTL) and JSP Expression Language.
 * We can also take a look at [OWASP Java Encoder Project](https://owasp.org/www-project-java-encoder/). One additional hint mentions that we should not forget to reference the tag libs and choose "e" as prefix.
-* So we know we will be using OWASP Java Encoder Porject to mitigate XSS vulnerabilities. We will declare the use of a tag library with taglib in the JSP file.&#x20;
+* So we know we will be using OWASP Java Encoder Porject to mitigate XSS vulnerabilities. We will declare the use of a tag library with taglib in the JSP file. 
 
 ```
 <%@ taglib uri="https://www.owasp.org/index.php/OWASP_Java_Encoder_Project" prefix="e" %>
 
 ```
 
-* A table tag will create a table to display the form of data.&#x20;
-* Tr Tags will define rows within the table. Td tags will define cells within each road.&#x20;
+* A table tag will create a table to display the form of data. 
+* Tr Tags will define rows within the table. Td tags will define cells within each road. 
 * Parameters `first_name` and `last_name` from the request, will  encode them using the OWASP Java Encoder, and then displays them in a table.
-* Here is the code:&#x20;
+* Here is the code: 
 
 ```
 <%@ taglib uri="https://www.owasp.org/index.php/OWASP_Java_Encoder_Project" prefix="e" %>

@@ -1,3 +1,10 @@
+---
+title: "A3:2021 | Cross Site Scripting (XSS) (10) | Cycubix Docs"
+layout: default
+nav_order: 10
+parent: "A3:2021 | Cross-Site Scripting (XSS) | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3:2021 | Cross Site Scripting (XSS) (10) | Cycubix Docs
 
 ### Identify potential for DOM-Based XSS <a href="#identify_potential_for_dom_based_xss" id="identify_potential_for_dom_based_xss"></a>
@@ -25,7 +32,7 @@ So, what is the route for the test code that stayed in the app during production
 
 <figure><img src="../../../../../.gitbook/assets/GOAT Router.png" alt=""><figcaption></figcaption></figure>
 
-* As it says in the lesson  The 'base route' in this case is: **start.mvc#lesson/** .&#x20;
+* As it says in the lesson  The 'base route' in this case is: **start.mvc#lesson/** . 
 * If we change lesson for test, then expected answer is then `start.mvc#test/`.
 
 **Troubleshooting**

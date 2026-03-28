@@ -1,3 +1,10 @@
+---
+title: "A5:2021 | Security Misconfiguration (11) | Cycubix Docs"
+layout: default
+nav_order: 11
+parent: "A5:2021 | Security Misconfiguration | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # A5:2021 | Security Misconfiguration (11) | Cycubix Docs
 
 ### Blind XXE assignment <a href="#blind_xxe_assignment" id="blind_xxe_assignment"></a>
@@ -20,17 +27,17 @@ Try to upload this file using WebWolf landing page for example: [`http://localho
 
 **With ZAP**
 
-* Start WebGoat and WebWolf.&#x20;
-* Save on a notepad the following file:&#x20;
+* Start WebGoat and WebWolf. 
+* Save on a notepad the following file: 
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <!ENTITY secret SYSTEM 'file:////home/webgoat/.webgoat-2023.8//XXE/username/secret.txt'>
 ```
 
-* Upload the DTD file to WebWolf. Once uploaded you will see the link address to access the file.&#x20;
-* Add a comment on WebGoat and intercept the POST request. Send the request to editor:&#x20;
-* Replace this section for the following code:&#x20;
+* Upload the DTD file to WebWolf. Once uploaded you will see the link address to access the file. 
+* Add a comment on WebGoat and intercept the POST request. Send the request to editor: 
+* Replace this section for the following code: 
 
 ```
 <?xml version="1.0"?>
@@ -45,8 +52,8 @@ Try to upload this file using WebWolf landing page for example: [`http://localho
 
 <figure><img src="../../../../.gitbook/assets/answer a5 11.png" alt=""><figcaption></figcaption></figure>
 
-* We have added after defining the Entity Type, the link to the file uploadad in WebWolf. You can replace that path according to your own username.&#x20;
-* Go back to WebGoat and post a comment. When we do that the webapp will load the content of the secret file.&#x20;
+* We have added after defining the Entity Type, the link to the file uploadad in WebWolf. You can replace that path according to your own username. 
+* Go back to WebGoat and post a comment. When we do that the webapp will load the content of the secret file. 
 
 <figure><img src="../../../../.gitbook/assets/webgoatrocks.png" alt=""><figcaption></figcaption></figure>
 

@@ -1,3 +1,10 @@
+---
+title: "A10:2021 | Server Side Request Forgery | Cross Site Request Forgery (5) | Cycubix Docs"
+layout: default
+nav_order: 5
+parent: "A10:2021 | Server Side Request Forgery | Cross Site Request Forgery | Cycubix Docs"
+grand_parent: "A10: 2021 | Server Side Request Forgery | Cycubix Docs"
+---
 # A10:2021 | Server Side Request Forgery | Cross Site Request Forgery (5) | Cycubix Docs
 
 #### Automatic support from frameworks <a href="#automatic_support_from_frameworks" id="automatic_support_from_frameworks"></a>

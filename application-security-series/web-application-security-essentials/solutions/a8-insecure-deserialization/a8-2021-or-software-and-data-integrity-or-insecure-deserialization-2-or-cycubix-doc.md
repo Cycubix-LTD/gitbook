@@ -1,3 +1,10 @@
+---
+title: "A8:2021 | Software and Data Integrity  | Insecure Deserialization (2) | Cycubix Doc"
+layout: default
+nav_order: 2
+parent: "A8:2021 | Software and Data Integrity | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # A8:2021 | Software and Data Integrity  | Insecure Deserialization (2) | Cycubix Doc
 
 ### What is Serialization <a href="#what_is_serialization" id="what_is_serialization"></a>

@@ -1,3 +1,10 @@
+---
+title: "A7: 2021 | JWT Tokens (12) | Cycubix Docs"
+layout: default
+nav_order: 12
+parent: "A7: 2021 | JWT Tokens | Cycubix Docs"
+grand_parent: "A7:2021 | Identity and Authentication Failure | Cycubix Docs"
+---
 # A7: 2021 | JWT Tokens (12) | Cycubix Docs
 
 ### Refreshing a token <a href="#refreshing_a_token" id="refreshing_a_token"></a>
@@ -45,7 +52,7 @@ As stated above using an access token and a separate refresh token gives some le
 
 There are a lot of resources available which question the usecase for using JWT token for client to server authentication with regards to cookies. The best place to use a JWT token is between server to server communication. In a normal web application you are better of using plain old cookies. See for more information:
 
-Links provided by WebGoat are not under HTTPS support.&#x20;
+Links provided by WebGoat are not under HTTPS support. 
 
 * [stop-using-jwt-for-sessions](http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/)
 * [stop-using-jwt-for-sessions-part-2-why-your-solution-doesnt-work](http://cryto.net/~joepie91/blog/2016/06/19/stop-using-jwt-for-sessions-part-2-why-your-solution-doesnt-work/) (link does not have HTTPS support)

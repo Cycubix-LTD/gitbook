@@ -1,3 +1,10 @@
+---
+title: "Client Side | HTML Tampering (1) | Cycubix Docs"
+layout: default
+nav_order: 1
+parent: "Client Side | HTML Tampering | Cycubix Docs"
+grand_parent: "Client Side | Cycubix Docs"
+---
 # Client Side | HTML Tampering (1) | Cycubix Docs
 
 ### Concept <a href="#concept" id="concept"></a>

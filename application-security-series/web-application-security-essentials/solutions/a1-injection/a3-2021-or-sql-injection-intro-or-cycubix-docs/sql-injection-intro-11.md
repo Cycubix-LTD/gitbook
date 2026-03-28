@@ -1,10 +1,11 @@
 ---
-description: >-
-  If a system is vulnerable to SQL injections, aspects of that system’s CIA
-  triad can be easily compromised. Learn how to compromise CIA with SQL string
-  injections.
+description: If a system is vulnerable to SQL injections, aspects of that system’s CIA triad can be easily compromised. Learn how to compromise CIA with SQL string injections.
+title: "A3:2021 | SQL Injection Intro (11) | Cycubix Docs"
+layout: default
+nav_order: 11
+parent: "A3:2021 | SQL Injection Intro | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
 ---
-
 # A3:2021 | SQL Injection Intro (11) | Cycubix Docs
 
 ### Compromising confidentiality with String SQL injection
@@ -25,7 +26,7 @@ If the input takes a string that gets inserted into a query as a string paramete
 You are an employee named John **Smith** working for a big company. The company has an internal system that allows all employees to see their own internal data - like the department they work in and their salary.
 
 The system requires the employees to use a unique _authentication TAN_ to view their data.\
-&#x20;
+ 
 
 Your current TAN is **3SL99A**.
 
@@ -42,8 +43,8 @@ You already found out that the query performing your request looks like this:
 
 #### Solution
 
-* Insert your authentication TAN.&#x20;
-* Try appending a SQL statement that always resolves to true. 0 OR 1=1.  But first we need to close the string&#x20;
+* Insert your authentication TAN. 
+* Try appending a SQL statement that always resolves to true. 0 OR 1=1.  But first we need to close the string 
 * The input `' OR '1' = '1` is crafted to manipulate the SQL query. It effectively tries to break out of the intended SQL context and introduce a condition that always evaluates to true.
 * Adding `--` at the end of an SQL injection payload is a technique used to comment out the rest of the SQL query. This can be used to manipulate the intended logic of the query, often to bypass security checks or authentication.
 

@@ -1,3 +1,10 @@
+---
+title: "A3:2021 | SQL Injection Mitigation (11) | Cycubix Docs"
+layout: default
+nav_order: 11
+parent: "A3:2021 | Injection | SQL Injection Mitigation | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3:2021 | SQL Injection Mitigation (11) | Cycubix Docs
 
 ### Order by clause <a href="#order_by_clause" id="order_by_clause"></a>

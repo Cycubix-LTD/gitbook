@@ -1,3 +1,10 @@
+---
+title: "A10:2021 | Server Side Request Forgery | Cross Site Request Forgery (1) | Cycubix Docs"
+layout: default
+nav_order: 1
+parent: "A10:2021 | Server Side Request Forgery | Cross Site Request Forgery | Cycubix Docs"
+grand_parent: "A10: 2021 | Server Side Request Forgery | Cycubix Docs"
+---
 # A10:2021 | Server Side Request Forgery | Cross Site Request Forgery (1) | Cycubix Docs
 
 #### What is a Cross-site request forgery? <a href="#what_is_a_cross_site_request_forgery" id="what_is_a_cross_site_request_forgery"></a>

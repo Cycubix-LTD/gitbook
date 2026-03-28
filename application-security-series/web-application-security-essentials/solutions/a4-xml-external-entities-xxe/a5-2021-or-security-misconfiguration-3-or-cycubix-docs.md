@@ -1,3 +1,10 @@
+---
+title: "A5:2021 | Security Misconfiguration (3) | Cycubix Docs"
+layout: default
+nav_order: 3
+parent: "A5:2021 | Security Misconfiguration | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # A5:2021 | Security Misconfiguration (3) | Cycubix Docs
 
 #### XXE example <a href="#xxe_example" id="xxe_example"></a>

@@ -1,16 +1,18 @@
 ---
-description: >-
-  Data control language is used to create privileges to allow users to access
-  and manipulate the database. Learn more about Data Control Language (DCL) now
+description: Data control language is used to create privileges to allow users to access and manipulate the database. Learn more about Data Control Language (DCL) now
+title: "A3:2021 | SQL Injection Intro (5) | Cycubix Docs"
+layout: default
+nav_order: 5
+parent: "A3:2021 | SQL Injection Intro | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
 ---
-
 # A3:2021 | SQL Injection Intro (5) | Cycubix Docs
 
 
 
 #### Data Control Language (DCL) <a href="#data_control_language_dcl" id="data_control_language_dcl"></a>
 
-Data control language is used to implement access control logic in a database.&#x20;
+Data control language is used to implement access control logic in a database. 
 
 DCL can be used to revoke and grant user privileges on database objects such as tables, views, and functions.
 

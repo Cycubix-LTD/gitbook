@@ -1,8 +1,15 @@
+---
+title: Docker
+layout: default
+nav_order: 2
+parent: "WebGoat Installation | Web Application Security | Cycubix Docs"
+grand_parent: "WebGoat | Web Application Security Essentials | Cycubix Docs"
+---
 # Docker
 
 ## Method 1 - WebGoat and WebWolf All-in-One Image
 
-The easiest way to start WebGoat as a Docker container is to use the **All-in-One WebGoat image** which contains both WebGoat and WebWolf as well as an NGINX reverse proxy.&#x20;
+The easiest way to start WebGoat as a Docker container is to use the **All-in-One WebGoat image** which contains both WebGoat and WebWolf as well as an NGINX reverse proxy. 
 
 1. Run the following command to download the All-in-One image from DockerHub, and consequently install and execute both WebGoat and WebWolf.
 
@@ -21,9 +28,9 @@ Another way to deply WebGoat and WebWolf in a more advanced way is to use a comp
 curl https://raw.githubusercontent.com/WebGoat/WebGoat/develop/docker-compose.yml | docker-compose -f - up
 ```
 
-{% hint style="info" %}
-**Important**: the current directory on your host will be mapped into the container for keeping state.
-{% endhint %}
+> ℹ️ **Info**
+>
+> **Important**: the current directory on your host will be mapped into the container for keeping state.
 
 Using the `docker-compose` file will simplify getting WebGoat and WebWolf up and running.
 

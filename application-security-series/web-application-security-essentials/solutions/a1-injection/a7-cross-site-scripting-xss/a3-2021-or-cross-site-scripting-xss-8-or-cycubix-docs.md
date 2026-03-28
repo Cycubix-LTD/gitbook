@@ -1,3 +1,10 @@
+---
+title: "A3:2021 | Cross Site Scripting (XSS) (8) | Cycubix Docs"
+layout: default
+nav_order: 8
+parent: "A3:2021 | Cross-Site Scripting (XSS) | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3:2021 | Cross Site Scripting (XSS) (8) | Cycubix Docs
 
 ### Self XSS or reflected XSS? <a href="#self_xss_or_reflected_xss" id="self_xss_or_reflected_xss"></a>

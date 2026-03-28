@@ -1,3 +1,10 @@
+---
+title: "A10:2021 | Server Side Request Forgery | Cross Site Request Forgery (2) | Cycubix Docs"
+layout: default
+nav_order: 2
+parent: "A10:2021 | Server Side Request Forgery | Cross Site Request Forgery | Cycubix Docs"
+grand_parent: "A10: 2021 | Server Side Request Forgery | Cycubix Docs"
+---
 # A10:2021 | Server Side Request Forgery | Cross Site Request Forgery (2) | Cycubix Docs
 
 ### CSRF with a GET request <a href="#csrf_with_a_get_request" id="csrf_with_a_get_request"></a>

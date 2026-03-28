@@ -1,3 +1,10 @@
+---
+title: "A7: 2021 | JWT Tokens (9) | Cycubix Docs"
+layout: default
+nav_order: 9
+parent: "A7: 2021 | JWT Tokens | Cycubix Docs"
+grand_parent: "A7:2021 | Identity and Authentication Failure | Cycubix Docs"
+---
 # A7: 2021 | JWT Tokens (9) | Cycubix Docs
 
 ### Code review (2) <a href="#code_review_2" id="code_review_2"></a>

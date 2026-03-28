@@ -1,3 +1,10 @@
+---
+title: "A7:2021 | Password Reset (5) | Cycubix Docs"
+layout: default
+nav_order: 5
+parent: "A7:2021 | Password Reset | Cycubix Docs"
+grand_parent: "A7:2021 | Identity and Authentication Failure | Cycubix Docs"
+---
 # A7:2021 | Password Reset (5) | Cycubix Docs
 
 ### The Problem with Security Questions <a href="#the_problem_with_security_questions" id="the_problem_with_security_questions"></a>

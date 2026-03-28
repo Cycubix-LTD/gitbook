@@ -1,10 +1,11 @@
 ---
-description: >-
-  The query in the code builds a dynamic query by concatenating a number making
-  it susceptible to Numeric SQL injection. Learn more about Numeric SQL
-  Injection.
+description: The query in the code builds a dynamic query by concatenating a number making it susceptible to Numeric SQL injection. Learn more about Numeric SQL Injection.
+title: "A3:2021 | SQL Injection Intro (10) | Cycubix Docs"
+layout: default
+nav_order: 10
+parent: "A3:2021 | SQL Injection Intro | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
 ---
-
 # A3:2021 | SQL Injection Intro (10) | Cycubix Docs
 
 ### Try It! Numeric SQL injection <a href="#try_it_numeric_sql_injection" id="try_it_numeric_sql_injection"></a>
@@ -21,10 +22,10 @@ Warning: Only one of these fields is susceptible to SQL Injection. You need to f
 
 #### Solution
 
-* The User\_ID at the end is not part of the STRING so its going to be our vulnerable field.&#x20;
-* We need to find statements that follows a technique for evaluating truth. We can insert 0 in the loging account and 1 OR 0=0.&#x20;
+* The User\_ID at the end is not part of the STRING so its going to be our vulnerable field. 
+* We need to find statements that follows a technique for evaluating truth. We can insert 0 in the loging account and 1 OR 0=0. 
 * Hint:  You do not need to insert any quotations into your injection-string.
-* &#x20;**Login\_count**: `0`
+*  **Login\_count**: `0`
 
 <figure><img src="../../../../../.gitbook/assets/sql injection 9 3.png" alt=""><figcaption></figcaption></figure>
 

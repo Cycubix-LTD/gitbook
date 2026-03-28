@@ -1,3 +1,10 @@
+---
+title: "A3:2021 | Cross Site Scripting (XSS) (12) | Cycubix Docs"
+layout: default
+nav_order: 12
+parent: "A3:2021 | Cross-Site Scripting (XSS) | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3:2021 | Cross Site Scripting (XSS) (12) | Cycubix Docs
 
 Now it is time for a quiz! It is recommended to check the OWASP Cross-Site Scripting explanations [https://www.owasp.org/index.php/Cross-site\_Scripting\_(XSS](https://owasp.org/www-community/attacks/xss/)) . Answer all questions correctly to complete the assignment.

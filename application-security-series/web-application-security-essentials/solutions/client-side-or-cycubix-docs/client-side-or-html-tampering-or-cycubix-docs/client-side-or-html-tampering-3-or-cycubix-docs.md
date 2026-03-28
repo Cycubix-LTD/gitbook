@@ -1,3 +1,10 @@
+---
+title: "Client Side | HTML Tampering (3) | Cycubix Docs"
+layout: default
+nav_order: 3
+parent: "Client Side | HTML Tampering | Cycubix Docs"
+grand_parent: "Client Side | Cycubix Docs"
+---
 # Client Side | HTML Tampering (3) | Cycubix Docs
 
 #### Mitigation <a href="#mitigation" id="mitigation"></a>

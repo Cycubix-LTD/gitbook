@@ -1,3 +1,10 @@
+---
+title: "A8:2021 | Software and Data Integrity | Insecure Deserialization (3) | Cycubix Doc"
+layout: default
+nav_order: 3
+parent: "A8:2021 | Software and Data Integrity | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # A8:2021 | Software and Data Integrity | Insecure Deserialization (3) | Cycubix Doc
 
 ### The Simplest Exploit <a href="#the_simplest_exploit" id="the_simplest_exploit"></a>

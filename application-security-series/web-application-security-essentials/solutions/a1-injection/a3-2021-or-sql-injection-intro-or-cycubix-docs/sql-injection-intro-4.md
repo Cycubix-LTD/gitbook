@@ -1,15 +1,16 @@
 ---
-description: >-
-  Data definition language includes commands for defining data structures,
-  especially database schemas which tell how the data should reside in the
-  database. Read on!
+description: Data definition language includes commands for defining data structures, especially database schemas which tell how the data should reside in the database. Read on!
+title: "A3:2021 | SQL injection Intro (4) | Cycubix Docs"
+layout: default
+nav_order: 4
+parent: "A3:2021 | SQL Injection Intro | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
 ---
-
 # A3:2021 | SQL injection Intro (4) | Cycubix Docs
 
 #### Data Definition Language (DDL) <a href="#data_definition_language_ddl" id="data_definition_language_ddl"></a>
 
-Data definition language includes commands for defining data structures. DDL commands are commonly used to define a database’s schema.&#x20;
+Data definition language includes commands for defining data structures. DDL commands are commonly used to define a database’s schema. 
 
 The schema refers to the overall structure or organization of the database and. in SQL databases, includes objects such as tables, indexes, views, relationships, triggers, and more.
 
@@ -23,12 +24,12 @@ If an attacker successfully "injects" DDL type SQL commands into a database, he 
 
     * CREATE TABLE employees (
 
-    &#x20;   userid varchar(6) not null primary key,\
-    &#x20;   first\_name varchar(20),\
-    &#x20;   last\_name varchar(20),\
-    &#x20;   department varchar(20),\
-    &#x20;   salary varchar(10),\
-    &#x20;   auth\_tan varchar(6)\
+        userid varchar(6) not null primary key,\
+        first\_name varchar(20),\
+        last\_name varchar(20),\
+        department varchar(20),\
+        salary varchar(10),\
+        auth\_tan varchar(6)\
     );
 
     * This statement creates the employees example table given on page 2.
@@ -41,8 +42,8 @@ Now try to modify the schema by adding the column "phone" (\*varchar(20)) <br>
 
 #### Solution
 
-* We need to ALTER the structure of the current database.&#x20;
-* &#x20;We also need to ADD a column name data type (size),
+* We need to ALTER the structure of the current database. 
+*  We also need to ADD a column name data type (size),
 
 **SQL query**: `ALTER TABLE employees ADD phone varchar(20)`
 

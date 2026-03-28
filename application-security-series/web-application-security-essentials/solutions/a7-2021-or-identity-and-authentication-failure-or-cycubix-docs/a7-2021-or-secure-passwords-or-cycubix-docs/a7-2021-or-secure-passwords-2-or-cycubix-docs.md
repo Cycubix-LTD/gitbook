@@ -1,3 +1,10 @@
+---
+title: "A7:2021 | Secure Passwords (2) | Cycubix Docs"
+layout: default
+nav_order: 2
+parent: "A7:2021 | Secure Passwords | Cycubix Docs"
+grand_parent: "A7:2021 | Identity and Authentication Failure | Cycubix Docs"
+---
 # A7:2021 | Secure Passwords (2) | Cycubix Docs
 
 #### National Institute of Standards and Technology (NIST) <a href="#national_institute_of_standards_and_technology_nist" id="national_institute_of_standards_and_technology_nist"></a>

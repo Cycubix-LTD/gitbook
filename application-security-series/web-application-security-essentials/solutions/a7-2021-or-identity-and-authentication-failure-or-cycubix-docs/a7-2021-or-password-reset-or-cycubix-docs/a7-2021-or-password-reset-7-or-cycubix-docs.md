@@ -1,3 +1,10 @@
+---
+title: "A7:2021 | Password Reset  (7) | Cycubix Docs"
+layout: default
+nav_order: 7
+parent: "A7:2021 | Password Reset | Cycubix Docs"
+grand_parent: "A7:2021 | Identity and Authentication Failure | Cycubix Docs"
+---
 # A7:2021 | Password Reset  (7) | Cycubix Docs
 
 ### How to prevent abusing the password reset function <a href="#how_to_prevent_abusing_the_password_reset_function" id="how_to_prevent_abusing_the_password_reset_function"></a>

@@ -1,3 +1,10 @@
+---
+title: "A2:2021 | Crypto Basics (6) | Cycubix Docs"
+layout: default
+nav_order: 6
+parent: "A2:2021 | Cryptographic Failures | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # A2:2021 | Crypto Basics (6) | Cycubix Docs
 
 A signature is a hash that can be used to check the validity of some data. The signature can be supplied separately from the data that it validates, or in the case of CMS or SOAP can be included in the same file. (Where parts of that file contain the data and parts contain the signature).
@@ -38,20 +45,20 @@ Here is a simple assignment. A private RSA key is sent to you. Determine the mod
 
 **Solution**
 
-* Taking into consideration that we were given a private RSA key, we will need to download OpenSSL and save the private key into a pem file.  If you have problems installing on your Windows Open SSL, you can use a Python script to achieve the same objectives.&#x20;
+* Taking into consideration that we were given a private RSA key, we will need to download OpenSSL and save the private key into a pem file.  If you have problems installing on your Windows Open SSL, you can use a Python script to achieve the same objectives. 
 
 **Hints**
 
 * Use openssl to get the public key from the private key. Apparently both private and public key information are stored.
-* Use the private key to sign the "modulus" value of the public key.&#x20;
+* Use the private key to sign the "modulus" value of the public key. 
 * Actually the "modulus" of the public key is the same as the private key. You could use openssl rsa -in test.key -pubout > test.pub and then openssl rsa -in test.pub -pubin -modulus -noout or other components.
-* Make sure that you do not take hidden characters into account. You might want to use echo -n "00AE89..." | openssl dgst -sign somekey -sha256 ... and do not forget to base64 encode the outcome.&#x20;
+* Make sure that you do not take hidden characters into account. You might want to use echo -n "00AE89..." | openssl dgst -sign somekey -sha256 ... and do not forget to base64 encode the outcome. 
 
 **Solution**
 
-* We will use WebGoat docker container terminal to run the commands.&#x20;
-* As stated in WebGoat exercise, we have the private key value.&#x20;
-* In base on the information provided we can create the following echo commands:&#x20;
+* We will use WebGoat docker container terminal to run the commands. 
+* As stated in WebGoat exercise, we have the private key value. 
+* In base on the information provided we can create the following echo commands: 
 
 ```
 echo -----BEGIN PRIVATE KEY----- > private.key
@@ -59,17 +66,17 @@ echo _THE_PRIVATE_KEY_ >> private.key
 echo -----END PRIVATE KEY----- >> private.key
 ```
 
-3. To get the modulus we will need to run the following openssl command:&#x20;
+3. To get the modulus we will need to run the following openssl command: 
 
 ```
 openssl rsa -text -noout -in private.key
 ```
 
-* The information regarding the modulus will be retrieved:&#x20;
+* The information regarding the modulus will be retrieved: 
 
 <figure><img src="../../../../.gitbook/assets/modulus.png" alt=""><figcaption></figcaption></figure>
 
-* Copy and paste the modulus information in WebGoat page, remember to remove all colon punctuation and spaces.&#x20;
+* Copy and paste the modulus information in WebGoat page, remember to remove all colon punctuation and spaces. 
 * To find the signature we can execute the following commands:
 
 $ echo -n "private key" openssl dgst -sign private.key -sha256 -out sign.sha256
@@ -86,7 +93,7 @@ $ cat sign.sha256.sha256
 
 **Troubleshooting**
 
-* Eiher if you are running on Windows, Mac or Unix, we recommend using WebGoat's Docker container terminal (is a Linux container anyway).&#x20;
+* Eiher if you are running on Windows, Mac or Unix, we recommend using WebGoat's Docker container terminal (is a Linux container anyway). 
 * You might encounter an error message thatndicates that OpenSSL is unable to read the private key from the `private.key` file, and it suggests there might be an issue with the formatting or the contents of the key file.  Try to follow the format detailed above and separate in three lines the commands related to the private key, in accordance to the details provided by WebGoat.
-* We recommend that you use Notepad before pasting values.&#x20;
+* We recommend that you use Notepad before pasting values. 
 

@@ -1,3 +1,10 @@
+---
+title: "A7:2021 | Authentication Bypasses (1) | Cycubix Docs"
+layout: default
+nav_order: 1
+parent: "A7:2021 | Authentication Bypasses | Cycubix Docs"
+grand_parent: "A7:2021 | Identity and Authentication Failure | Cycubix Docs"
+---
 # A7:2021 | Authentication Bypasses (1) | Cycubix Docs
 
 ### Authentication Bypasses <a href="#authentication_bypasses" id="authentication_bypasses"></a>

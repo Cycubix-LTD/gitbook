@@ -1,3 +1,10 @@
+---
+title: "General | The CIA Triad (1) | Cycubix Docs"
+layout: default
+nav_order: 1
+parent: "General | The CIA Triad | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # General | The CIA Triad (1) | Cycubix Docs
 
 ## The CIA Triad
@@ -7,4 +14,4 @@ The CIA Triad (confidentiality, integrity, availability) is a model for informat
 \
 Serious consequences can result if even one of these elements is breached.
 
-The CIA Triad was created to provide a baseline standard for evaluating and implementing security regardless of the underlying system and/or organization.&#x20;
+The CIA Triad was created to provide a baseline standard for evaluating and implementing security regardless of the underlying system and/or organization. 

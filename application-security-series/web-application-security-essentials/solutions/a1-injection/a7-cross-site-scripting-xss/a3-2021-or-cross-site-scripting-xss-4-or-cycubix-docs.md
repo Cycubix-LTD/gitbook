@@ -1,3 +1,10 @@
+---
+title: "A3:2021 | Cross Site Scripting (XSS) (4) | Cycubix Docs"
+layout: default
+nav_order: 4
+parent: "A3:2021 | Cross-Site Scripting (XSS) | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3:2021 | Cross Site Scripting (XSS) (4) | Cycubix Docs
 
 ### Why should we care? <a href="#why_should_we_care" id="why_should_we_care"></a>

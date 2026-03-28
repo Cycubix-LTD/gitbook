@@ -1,10 +1,11 @@
 ---
-description: >-
-  In order to utilize WebGoat and WebWolf you need to fulfil the system
-  requirements. Set up your pc and fulfil system requirements for mac & windows
-  now.
+description: In order to utilize WebGoat and WebWolf you need to fulfil the system requirements. Set up your pc and fulfil system requirements for mac & windows now.
+title: "WebGoat & WebWolf System Requirements | Cycubix Docs"
+layout: default
+nav_order: 5
+parent: "WebGoat | Web Application Security Essentials | Cycubix Docs"
+grand_parent: Web Application Security Essentials
 ---
-
 # WebGoat & WebWolf System Requirements | Cycubix Docs
 
 In order to utilize [WebGoat ](https://owasp.org/www-project-webgoat/)and [WebWolf](about-webwolf/), you need to fulfil the system requirements and set up your laptop / PC as described below.

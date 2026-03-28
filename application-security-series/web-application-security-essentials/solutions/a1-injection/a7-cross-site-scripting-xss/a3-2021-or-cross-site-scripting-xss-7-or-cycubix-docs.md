@@ -1,3 +1,10 @@
+---
+title: "A3:2021 | Cross Site Scripting (XSS) (7) | Cycubix Docs"
+layout: default
+nav_order: 7
+parent: "A3:2021 | Cross-Site Scripting (XSS) | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3:2021 | Cross Site Scripting (XSS) (7) | Cycubix Docs
 
 ### Try It! Reflected XSS <a href="#try_it_reflected_xss" id="try_it_reflected_xss"></a>
@@ -12,9 +19,9 @@ An easy way to find out if a field is vulnerable to an XSS attack is to use the 
 
 ### Solution
 
-* The hint provided says "Think about how the inputs are presumably processed by the application.".&#x20;
-* We can start by positioning in the field of credit card number. Select inspect to open developer tools.&#x20;
-* Paste after the credit card number the following script:&#x20;
+* The hint provided says "Think about how the inputs are presumably processed by the application.". 
+* We can start by positioning in the field of credit card number. Select inspect to open developer tools. 
+* Paste after the credit card number the following script: 
 
 `<script>alert(2)</script>`
 
@@ -22,7 +29,7 @@ An easy way to find out if a field is vulnerable to an XSS attack is to use the 
 
 <figure><img src="../../../../../.gitbook/assets/local host says 2.png" alt=""><figcaption></figcaption></figure>
 
-* Your purchase will be completed as follow:&#x20;
+* Your purchase will be completed as follow: 
 
 
 

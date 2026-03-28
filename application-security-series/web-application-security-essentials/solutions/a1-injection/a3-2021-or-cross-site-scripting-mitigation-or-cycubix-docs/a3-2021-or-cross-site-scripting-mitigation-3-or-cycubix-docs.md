@@ -1,3 +1,10 @@
+---
+title: "A3:2021 | Cross Site Scripting Mitigation (3) | Cycubix Docs"
+layout: default
+nav_order: 3
+parent: "A3:2021 | Cross Site Scripting Mitigation | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3:2021 | Cross Site Scripting Mitigation (3) | Cycubix Docs
 
 ### What is encoding? <a href="#what_is_encoding" id="what_is_encoding"></a>

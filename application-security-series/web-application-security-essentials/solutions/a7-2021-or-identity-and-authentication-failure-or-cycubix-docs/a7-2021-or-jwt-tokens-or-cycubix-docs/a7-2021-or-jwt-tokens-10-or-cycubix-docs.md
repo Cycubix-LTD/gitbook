@@ -1,3 +1,10 @@
+---
+title: "A7: 2021 | JWT Tokens (10) | Cycubix Docs"
+layout: default
+nav_order: 10
+parent: "A7: 2021 | JWT Tokens | Cycubix Docs"
+grand_parent: "A7:2021 | Identity and Authentication Failure | Cycubix Docs"
+---
 # A7: 2021 | JWT Tokens (10) | Cycubix Docs
 
 #### Solution <a href="#solution" id="solution"></a>
@@ -40,7 +47,7 @@ When you have chosen a library to help dealing with JWT tokens make sure to:
 
 The algorithm confusion is a real problem when dealing with JWTs it can be avoided by using PASETO (**P**latform-**A**gnostic **SE**curity **TO**kens), which is currently implemented in 10 programming languages. One of the drawbacks of using this method is that JWT is widely spread for example think about using OAuth, so it might not be the best solution to use.
 
-For more information take a look at the following video:&#x20;
+For more information take a look at the following video: 
 
-{% embed url="https://youtu.be/RijGNytjbOI" %}
+[https://youtu.be/RijGNytjbOI](https://youtu.be/RijGNytjbOI)
 

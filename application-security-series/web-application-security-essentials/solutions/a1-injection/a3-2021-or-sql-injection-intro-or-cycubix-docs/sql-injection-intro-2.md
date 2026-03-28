@@ -1,10 +1,11 @@
 ---
-description: >-
-  SQL is a standardized programming language which is used for managing
-  relational databases and performing various operations on the data in them.
-  Find out about SQL.
+description: SQL is a standardized programming language which is used for managing relational databases and performing various operations on the data in them. Find out about SQL.
+title: "A3:2021 | SQL Injection Intro (2)  | Cycubix Docs"
+layout: default
+nav_order: 2
+parent: "A3:2021 | SQL Injection Intro | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
 ---
-
 # A3:2021 | SQL Injection Intro (2)  | Cycubix Docs
 
 ### What is SQL? <a href="#what_is_sql" id="what_is_sql"></a>
@@ -31,17 +32,17 @@ A company saves the following employee information in their databases: a unique 
 
 There are three main categories of SQL commands:
 
-* Data Manipulation Language (DML):&#x20;
+* Data Manipulation Language (DML): 
   * **SELECT**: Retrieves data from one or more tables. For example, `SELECT * FROM employees;`
   * **INSERT**: Adds new rows of data to a table. For example, `INSERT INTO employees (id, name, age) VALUES (1, 'John Doe', 30);`
   * **UPDATE**: Modifies existing data within a table. For example, `UPDATE employees SET age = 31 WHERE id = 1;`
   * **DELETE**: Removes rows of data from a table. For example, `DELETE FROM employees WHERE id = 1;`
-* Data Definition Language (DDL):&#x20;
+* Data Definition Language (DDL): 
   * **CREATE**: Creates a new table, database, index, or view. For example, `CREATE TABLE employees (id INT, name VARCHAR(100));`
   * **ALTER**: Modifies an existing database object, such as adding or deleting a column. For example, `ALTER TABLE employees ADD COLUMN age INT;`
   * **DROP**: Deletes an existing table, database, index, or view. For example, `DROP TABLE employees;`
   * **TRUNCATE**: Removes all records from a table, but not the table itself. For example, `TRUNCATE TABLE employees;`
-* Data Control Language (DCL):&#x20;
+* Data Control Language (DCL): 
   * **GRANT**: Gives a user permission to perform specific tasks. For example, `GRANT SELECT ON employees TO user1;`
   * **REVOKE**: Removes a user's permission to perform specific tasks. For example, `REVOKE SELECT ON employees FROM user1;`
 
@@ -51,25 +52,25 @@ If you are still struggling with SQL and need more information or practice, you 
 
 #### It is your turn! <a href="#it_is_your_turn" id="it_is_your_turn"></a>
 
-Look at the example table. Try to retrieve the department of the employee Bob Franco. Note that you have been granted full administrator privileges in this assignment and can access all data without authentication.&#x20;
+Look at the example table. Try to retrieve the department of the employee Bob Franco. Note that you have been granted full administrator privileges in this assignment and can access all data without authentication. 
 
 <figure><img src="../../../../../.gitbook/assets/SQL image.png" alt=""><figcaption></figcaption></figure>
 
 #### Solution
 
-* You need to find the DEPARTMENT corresponding to the employee Bob Franco.&#x20;
+* You need to find the DEPARTMENT corresponding to the employee Bob Franco. 
 
 **SELECT**: Retrieves data from one or more tables. For example, `SELECT * FROM employees;`
 
-`The data base name is employees, and you know the first and last name of the employee.`&#x20;
+`The data base name is employees, and you know the first and last name of the employee.` 
 
-`WHERE would be the condition in the string.`&#x20;
+`WHERE would be the condition in the string.` 
 
 <figure><img src="../../../../../.gitbook/assets/Results SQL 2.png" alt=""><figcaption></figcaption></figure>
 
 **SQL query**: `SELECT department FROM employees WHERE first_name='Bob'`
 
-The resulting department is marketing.&#x20;
+The resulting department is marketing. 
 
 <figure><img src="../../../../../.gitbook/assets/Results SQL 2 bis.png" alt=""><figcaption></figcaption></figure>
 

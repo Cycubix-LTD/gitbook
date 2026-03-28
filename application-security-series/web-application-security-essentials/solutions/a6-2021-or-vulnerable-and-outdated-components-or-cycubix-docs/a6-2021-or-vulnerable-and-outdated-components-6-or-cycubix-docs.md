@@ -1,3 +1,10 @@
+---
+title: "A6:2021 | Vulnerable and Outdated Components (6) | Cycubix Docs"
+layout: default
+nav_order: 6
+parent: "A6:2021 | Vulnerable and Outdated Components | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # A6:2021 | Vulnerable and Outdated Components (6) | Cycubix Docs
 
 ### Knowing the OSS "Bill of Materials" is the starting point <a href="#knowing_the_oss_bill_of_materials_is_the_starting_point" id="knowing_the_oss_bill_of_materials_is_the_starting_point"></a>

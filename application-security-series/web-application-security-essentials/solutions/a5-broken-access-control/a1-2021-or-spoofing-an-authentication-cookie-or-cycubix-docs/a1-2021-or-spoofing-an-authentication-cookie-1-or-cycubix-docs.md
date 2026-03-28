@@ -1,3 +1,10 @@
+---
+title: "A1:2021 | Spoofing an Authentication Cookie (1) | Cycubix Docs"
+layout: default
+nav_order: 1
+parent: "A1:2021 | Spoofing an Authentication Cookie | Cycubix Docs"
+grand_parent: "A1:2021 | Broken Access Control | Cycubix Docs"
+---
 # A1:2021 | Spoofing an Authentication Cookie (1) | Cycubix Docs
 
 ### Concept <a href="#concept" id="concept"></a>
@@ -18,7 +25,7 @@ The user should NOT be able to guess the cookie generation algorithm and bypass 
 
 ### Rationale <a href="#rationale" id="rationale"></a>
 
-It is crucial for the security of the authentication system that the cookie generation algorithm remains secure and not easily guessable.&#x20;
+It is crucial for the security of the authentication system that the cookie generation algorithm remains secure and not easily guessable. 
 
 If an attacker can predict or determine the algorithm, they may be able to generate valid authentication cookies for different users, thereby bypassing the authentication mechanism and impersonating other users.
 

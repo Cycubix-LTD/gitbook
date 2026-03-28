@@ -1,3 +1,10 @@
+---
+title: "A3:2021 | SQL Injection Advanced (2) | Cycubix Docs"
+layout: default
+nav_order: 2
+parent: "A3:2021 | SQL Injection Advanced | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3:2021 | SQL Injection Advanced (2) | Cycubix Docs
 
 ### Special Characters <a href="#special_characters" id="special_characters"></a>

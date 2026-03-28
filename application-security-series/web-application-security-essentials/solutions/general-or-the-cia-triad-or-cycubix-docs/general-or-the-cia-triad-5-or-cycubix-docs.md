@@ -1,3 +1,10 @@
+---
+title: "General | The CIA Triad (5) | Cycubix Docs"
+layout: default
+nav_order: 5
+parent: "General | The CIA Triad | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # General | The CIA Triad (5) | Cycubix Docs
 
 ## Quiz

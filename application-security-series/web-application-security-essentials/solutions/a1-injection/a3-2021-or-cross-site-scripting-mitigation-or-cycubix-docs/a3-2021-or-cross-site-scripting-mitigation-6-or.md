@@ -1,3 +1,10 @@
+---
+title: "A3:2021 | Cross Site Scripting Mitigation (6) |"
+layout: default
+nav_order: 6
+parent: "A3:2021 | Cross Site Scripting Mitigation | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3:2021 | Cross Site Scripting Mitigation (6) |
 
 ### Stored XSS <a href="#stored_xss" id="stored_xss"></a>
@@ -54,11 +61,11 @@ Try to prevent this kind of XSS by creating a clean string inside the saveNewCom
 **Solution**
 
 * Hints: Try to have a look at the AntiSamy documentation.
-* Looking at the documentation will allow us to add the necessary imports.&#x20;
+* Looking at the documentation will allow us to add the necessary imports. 
 * We also need to create a policy file: you can find it in this repository. [https://github.com/nahsra/antisamy](https://github.com/nahsra/antisamy)
 * When you implement the code, dpeloy and test the application be ensure that user inputs are sanitized correctly, thus mitigating XSS vulnerabilities.
 
-The solution code is the following:&#x20;
+The solution code is the following: 
 
 ```
 import org.owasp.validator.html.*;  

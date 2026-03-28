@@ -1,3 +1,10 @@
+---
+title: "A3: 2021 | Path Transversal (1) | Cycubix Docs"
+layout: default
+nav_order: 1
+parent: "A3:2021 | Path Transversal | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3: 2021 | Path Transversal (1) | Cycubix Docs
 
 #### Path traversal <a href="#path_traversal" id="path_traversal"></a>

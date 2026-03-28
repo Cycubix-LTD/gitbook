@@ -1,10 +1,17 @@
+---
+title: "General | HTTP Proxies (9) | Cycubix Docs"
+layout: default
+nav_order: 9
+parent: "General | HTTP Proxies | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # General | HTTP Proxies (9) | Cycubix Docs
 
 ## Burp Proxy
 
-Another proxy you can use is Burp. One of the exercises in WebGoat can only be resolved with Burp and not with ZAP.&#x20;
+Another proxy you can use is Burp. One of the exercises in WebGoat can only be resolved with Burp and not with ZAP. 
 
-You can only configure Burp manually. Please follow the steps described here first.&#x20;
+You can only configure Burp manually. Please follow the steps described here first. 
 
 You can download the Burp community edition as a [plain jar file](https://portswigger.net/burp/communitydownload)
 
@@ -22,7 +29,7 @@ Go to the proxy settings and change it to use port 8090.
 
 On this page, you can also export the Burp certificate and import it into your browser. Similar to the instructions in previous pages.
 
-Go to the proxy intercept page and click on the toggle so that intercept is switched off.&#x20;
+Go to the proxy intercept page and click on the toggle so that intercept is switched off. 
 
 <figure><img src="../../../../.gitbook/assets/burpsuite intercep off.png" alt=""><figcaption></figcaption></figure>
 

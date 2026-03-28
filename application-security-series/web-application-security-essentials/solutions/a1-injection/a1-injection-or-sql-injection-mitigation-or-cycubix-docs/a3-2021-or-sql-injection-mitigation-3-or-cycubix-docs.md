@@ -1,3 +1,10 @@
+---
+title: "A3:2021 | SQL Injection Mitigation (3) | Cycubix Docs"
+layout: default
+nav_order: 3
+parent: "A3:2021 | Injection | SQL Injection Mitigation | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3:2021 | SQL Injection Mitigation (3) | Cycubix Docs
 
 ### Parameterized Queries - Java Snippet <a href="#parameterized_queries_java_snippet" id="parameterized_queries_java_snippet"></a>

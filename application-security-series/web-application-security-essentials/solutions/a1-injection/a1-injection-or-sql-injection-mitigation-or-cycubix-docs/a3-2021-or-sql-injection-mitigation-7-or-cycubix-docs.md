@@ -1,3 +1,10 @@
+---
+title: "A3:2021 | SQL Injection Mitigation (7) | Cycubix Docs"
+layout: default
+nav_order: 7
+parent: "A3:2021 | Injection | SQL Injection Mitigation | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3:2021 | SQL Injection Mitigation (7) | Cycubix Docs
 
 ### Parameterized Queries - .NET <a href="#parameterized_queries_net" id="parameterized_queries_net"></a>

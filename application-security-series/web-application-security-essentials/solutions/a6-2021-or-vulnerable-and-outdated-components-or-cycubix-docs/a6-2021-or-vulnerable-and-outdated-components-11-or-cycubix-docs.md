@@ -1,3 +1,10 @@
+---
+title: "A6:2021 | Vulnerable and Outdated Components (11) | Cycubix Docs"
+layout: default
+nav_order: 11
+parent: "A6:2021 | Vulnerable and Outdated Components | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # A6:2021 | Vulnerable and Outdated Components (11) | Cycubix Docs
 
 ### Some Examples of OSS Risk <a href="#some_examples_of_oss_risk" id="some_examples_of_oss_risk"></a>

@@ -1,3 +1,10 @@
+---
+title: "A6:2021 | Vulnerable and Outdated Components (5) | Cycubix Docs"
+layout: default
+nav_order: 5
+parent: "A6:2021 | Vulnerable and Outdated Components | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # A6:2021 | Vulnerable and Outdated Components (5) | Cycubix Docs
 
 ### The exploit is not always in "your" code <a href="#the_exploit_is_not_always_in_your_code" id="the_exploit_is_not_always_in_your_code"></a>

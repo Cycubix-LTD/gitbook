@@ -1,10 +1,11 @@
 ---
-description: >-
-  Learn what type of HTTP command WebGoat used for this lesson. Discover the
-  solution to the HTTP quiz we offered as part of our web application security
-  course.
+description: Learn what type of HTTP command WebGoat used for this lesson. Discover the solution to the HTTP quiz we offered as part of our web application security course.
+title: "General | HTTP Basics (3) | Cycubix Docs"
+layout: default
+nav_order: 3
+parent: "General | HTTP Basics | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
 ---
-
 # General | HTTP Basics (3) | Cycubix Docs
 
 ## The Quiz <a href="#the_quiz" id="the_quiz"></a>
@@ -15,13 +16,13 @@ What type of HTTP command did WebGoat use for this lesson. A POST or a GET.
 
 ## Hints
 
-{% hint style="info" %}
-Turn on Show Parameters or other features.
-{% endhint %}
+> ℹ️ **Info**
+>
+> Turn on Show Parameters or other features.
 
-{% hint style="info" %}
-Try to intercept the request with ZAP
-{% endhint %}
+> ℹ️ **Info**
+>
+> Try to intercept the request with ZAP
 
 ## Solution
 

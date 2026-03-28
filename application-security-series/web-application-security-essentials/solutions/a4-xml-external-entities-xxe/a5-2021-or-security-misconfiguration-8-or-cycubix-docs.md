@@ -1,3 +1,10 @@
+---
+title: "A5:2021 | Security Misconfiguration (8) | Cycubix Docs"
+layout: default
+nav_order: 8
+parent: "A5:2021 | Security Misconfiguration | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # A5:2021 | Security Misconfiguration (8) | Cycubix Docs
 
 #### Assignment solution <a href="#assignment_solution" id="assignment_solution"></a>

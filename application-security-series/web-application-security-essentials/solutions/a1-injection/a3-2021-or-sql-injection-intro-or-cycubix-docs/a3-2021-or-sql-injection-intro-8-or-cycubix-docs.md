@@ -1,3 +1,10 @@
+---
+title: "A3:2021 | SQL Injection Intro (8) | Cycubix Docs"
+layout: default
+nav_order: 8
+parent: "A3:2021 | SQL Injection Intro | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3:2021 | SQL Injection Intro (8) | Cycubix Docs
 
 ### Severity of SQL injection <a href="#severity_of_sql_injection" id="severity_of_sql_injection"></a>

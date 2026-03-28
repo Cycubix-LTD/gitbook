@@ -1,3 +1,10 @@
+---
+title: "A3:2021 | SQL Injection Intro (6) | Cycubix Docs"
+layout: default
+nav_order: 6
+parent: "A3:2021 | SQL Injection Intro | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3:2021 | SQL Injection Intro (6) | Cycubix Docs
 
 ### What is SQL injection? <a href="#what_is_sql_injection" id="what_is_sql_injection"></a>
@@ -48,7 +55,7 @@ SQL injection can be used for far more than reading the data of a single of user
 * `Smith' OR 1 = 1; --`\
   results in `SELECT * FROM users WHERE name = 'Smith' OR TRUE;--';` which, like the first example, will also return all entries from the users table
 * `Smith'; DROP TABLE users; TRUNCATE audit_log; --`\
-  chains multiple SQL-Commands in order to both DROP the users table and delete all entries from the audit\_log table.&#x20;
+  chains multiple SQL-Commands in order to both DROP the users table and delete all entries from the audit\_log table. 
 
 
 

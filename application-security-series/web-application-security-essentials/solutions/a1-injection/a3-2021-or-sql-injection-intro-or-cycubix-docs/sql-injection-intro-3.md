@@ -1,3 +1,10 @@
+---
+title: "A3:2021 | SQL Injection  Intro (3)  | Cycubix Docs"
+layout: default
+nav_order: 3
+parent: "A3:2021 | SQL Injection Intro | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3:2021 | SQL Injection  Intro (3)  | Cycubix Docs
 
 As implied by the name, data manipulation language deals with the manipulation of data. Many of the most common SQL statements, including SELECT, INSERT, UPDATE, and DELETE, may be categorized as DML statements. DML statements may be used for requesting records (SELECT), adding records (INSERT), deleting records (DELETE), and modifying existing records (UPDATE).
@@ -22,10 +29,10 @@ Try to change the department of Tobi Barnett to 'Sales'. Note that you have been
 
 <figure><img src="../../../../../.gitbook/assets/SQL Query 3.png" alt=""><figcaption></figcaption></figure>
 
-**Solutio**To change the Department you need to UPDATE employees table.&#x20;
+**Solutio**To change the Department you need to UPDATE employees table. 
 
-* **Update Statement:** Part of the `UPDATE` statement to modify column values in a table. You need tto modify the department. SET together with UPDATE will modify the comuns.&#x20;
-* **Where condition**:  is used to filter records and extract only those that fulfill a specified condition.&#x20;
+* **Update Statement:** Part of the `UPDATE` statement to modify column values in a table. You need tto modify the department. SET together with UPDATE will modify the comuns. 
+* **Where condition**:  is used to filter records and extract only those that fulfill a specified condition. 
 
 <figure><img src="../../../../../.gitbook/assets/sql solution 3.png" alt=""><figcaption></figcaption></figure>
 

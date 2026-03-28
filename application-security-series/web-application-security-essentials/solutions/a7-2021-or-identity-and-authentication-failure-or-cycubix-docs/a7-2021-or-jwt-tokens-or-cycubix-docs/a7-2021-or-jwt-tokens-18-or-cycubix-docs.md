@@ -1,6 +1,13 @@
+---
+title: "A7: 2021 | JWT Tokens (18) | Cycubix Docs"
+layout: default
+nav_order: 18
+parent: "A7: 2021 | JWT Tokens | Cycubix Docs"
+grand_parent: "A7:2021 | Identity and Authentication Failure | Cycubix Docs"
+---
 # A7: 2021 | JWT Tokens (18) | Cycubix Docs
 
-### &#x20;<a href="#try_it_out" id="try_it_out"></a>
+###  <a href="#try_it_out" id="try_it_out"></a>
 
 ### This is a repeated lab from lesson 16 <a href="#try_it_out" id="try_it_out"></a>
 

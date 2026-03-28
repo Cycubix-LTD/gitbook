@@ -1,3 +1,10 @@
+---
+title: "A3:2021 | Cross Site Scripting Mitigation (2) | Cycubix Docs"
+layout: default
+nav_order: 2
+parent: "A3:2021 | Cross Site Scripting Mitigation | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3:2021 | Cross Site Scripting Mitigation (2) | Cycubix Docs
 
 ### XSS defense <a href="#xss_defense" id="xss_defense"></a>

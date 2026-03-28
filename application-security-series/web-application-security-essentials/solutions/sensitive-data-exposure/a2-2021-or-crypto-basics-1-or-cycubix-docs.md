@@ -1,3 +1,10 @@
+---
+title: "A2:2021 | Crypto Basics (1)  | Cycubix Docs"
+layout: default
+nav_order: 1
+parent: "A2:2021 | Cryptographic Failures | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # A2:2021 | Crypto Basics (1)  | Cycubix Docs
 
 ### Concept <a href="#concept" id="concept"></a>

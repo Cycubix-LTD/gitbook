@@ -1,3 +1,10 @@
+---
+title: "A3:2021 | SQL Injection Mitigation (2) |"
+layout: default
+nav_order: 2
+parent: "A3:2021 | Injection | SQL Injection Mitigation | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3:2021 | SQL Injection Mitigation (2) |
 
 ### Stored Procedures <a href="#stored_procedures" id="stored_procedures"></a>

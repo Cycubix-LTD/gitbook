@@ -1,3 +1,10 @@
+---
+title: "A7: 2021 | JWT Tokens (11) | Cycubix Docs"
+layout: default
+nav_order: 11
+parent: "A7: 2021 | JWT Tokens | Cycubix Docs"
+grand_parent: "A7:2021 | Identity and Authentication Failure | Cycubix Docs"
+---
 # A7: 2021 | JWT Tokens (11) | Cycubix Docs
 
 ### JWT cracking <a href="#jwt_cracking" id="jwt_cracking"></a>
@@ -25,18 +32,18 @@ eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJXZWJHb2F0IFRva2VuIEJ1aWxkZXIiLCJhdWQiOiJ3ZWJnb2F
 
 **Solution**
 
-* Save the token and try to verify the token locally.&#x20;
-* Download a word list dictionary (https://github.com/first20hours/google-10000-english).&#x20;
-* Write a small program or use HashCat for brute forcing the token according the word list.&#x20;
+* Save the token and try to verify the token locally. 
+* Download a word list dictionary (https://github.com/first20hours/google-10000-english). 
+* Write a small program or use HashCat for brute forcing the token according the word list. 
 * You can access the source code for the lesson in the followin link: [WebGoat Secret Key](https://github.com/WebGoat/WebGoat/blob/main/src/test/java/org/owasp/webgoat/lessons/jwt/JWTSecretKeyEndpointTest.java) .
-* Click the submit button on WebGoat and find the POST request in ZAP.&#x20;
-* Go into [https://jwt.io/](https://jwt.io/), and paste the entire token. Examine the payload data.&#x20;
-* Copy the claims part (payloads data) of the token and go to tools in ZAP/decoder, to decode that section of the token into base64.&#x20;
+* Click the submit button on WebGoat and find the POST request in ZAP. 
+* Go into [https://jwt.io/](https://jwt.io/), and paste the entire token. Examine the payload data. 
+* Copy the claims part (payloads data) of the token and go to tools in ZAP/decoder, to decode that section of the token into base64. 
 
 <figure><img src="../../../../../.gitbook/assets/DECODE BASE64.png" alt=""><figcaption></figcaption></figure>
 
-* Copy the payload details into the payload section at JWT page.&#x20;
-* Go ahead and change sub, username and email into WebGoat.&#x20;
-* It's very important to change the expiration time of the token.&#x20;
+* Copy the payload details into the payload section at JWT page. 
+* Go ahead and change sub, username and email into WebGoat. 
+* It's very important to change the expiration time of the token. 
 * We will also need the secret to unlock the valid signature. For that we will save the key that we have, and use the HASHCAT command
 

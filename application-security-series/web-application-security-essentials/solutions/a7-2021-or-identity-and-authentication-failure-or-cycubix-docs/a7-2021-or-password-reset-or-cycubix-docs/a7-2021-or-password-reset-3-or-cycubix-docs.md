@@ -1,3 +1,10 @@
+---
+title: "A7:2021 | Password Reset (3) | Cycubix Docs"
+layout: default
+nav_order: 3
+parent: "A7:2021 | Password Reset | Cycubix Docs"
+grand_parent: "A7:2021 | Identity and Authentication Failure | Cycubix Docs"
+---
 # A7:2021 | Password Reset (3) | Cycubix Docs
 
 ### Find out if account exists <a href="#find_out_if_account_exists" id="find_out_if_account_exists"></a>

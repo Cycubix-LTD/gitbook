@@ -1,3 +1,10 @@
+---
+title: "A3:2021 | Cross Site Scripting Stored (2)"
+layout: default
+nav_order: 2
+parent: "A3:2021 | Cross Site Scripting Stored | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3:2021 | Cross Site Scripting Stored (2)
 
 ### Stored XSS <a href="#stored_xss" id="stored_xss"></a>

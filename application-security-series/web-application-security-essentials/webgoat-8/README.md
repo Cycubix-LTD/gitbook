@@ -1,10 +1,12 @@
 ---
-description: >-
-  WebGoat allows testing vulnerabilities in Java based applications. Our web
-  application security training uses WebGoat to allow lab test. Learn about
-  WebGoat.
+description: WebGoat allows testing vulnerabilities in Java based applications. Our web application security training uses WebGoat to allow lab test. Learn about WebGoat.
+title: "WebGoat | Web Application Security Essentials | Cycubix Docs"
+layout: default
+nav_order: 2
+parent: Web Application Security Essentials
+grand_parent: Application Security Series
+has_children: true
 ---
-
 # WebGoat | Web Application Security Essentials | Cycubix Docs
 
 ![](<../../../.gitbook/assets/image (14).png>)

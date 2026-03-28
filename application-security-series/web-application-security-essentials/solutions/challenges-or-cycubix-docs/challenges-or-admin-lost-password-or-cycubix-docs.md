@@ -1,3 +1,10 @@
+---
+title: "Challenges | Admin Lost Password | Cycubix Docs"
+layout: default
+nav_order: 1
+parent: "Challenges | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # Challenges | Admin Lost Password | Cycubix Docs
 
 #### Welcome to the WebGoat challenge (CTF) <a href="#welcome_to_the_webgoat_challenge_ctf" id="welcome_to_the_webgoat_challenge_ctf"></a>
@@ -27,21 +34,21 @@ Team WebGoat
 
 **Solution**
 
-* Open ZAP or BurpSuite and intercept the request.&#x20;
+* Open ZAP or BurpSuite and intercept the request. 
 
 <figure><img src="../../../../.gitbook/assets/logo.png" alt=""><figcaption></figcaption></figure>
 
-* Send the request to the Manual Request Editor (ZAP) or the Repeater (BURP).&#x20;
-* Press send:&#x20;
+* Send the request to the Manual Request Editor (ZAP) or the Repeater (BURP). 
+* Press send: 
 
 <figure><img src="../../../../.gitbook/assets/LOGO ANSWER.png" alt=""><figcaption></figcaption></figure>
 
-* Change the response from image to text:&#x20;
+* Change the response from image to text: 
 
 <br>
 
 <figure><img src="../../../../.gitbook/assets/admin1366.png" alt=""><figcaption></figcaption></figure>
 
-* Submit into WebGoat the corresponding information for username and password:&#x20;
+* Submit into WebGoat the corresponding information for username and password: 
 
 <figure><img src="../../../../.gitbook/assets/ctf admin.png" alt=""><figcaption></figcaption></figure>

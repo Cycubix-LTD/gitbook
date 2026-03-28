@@ -1,3 +1,10 @@
+---
+title: "A7:2021 | Secure Passwords (3) | Cycubix Docs"
+layout: default
+nav_order: 3
+parent: "A7:2021 | Secure Passwords | Cycubix Docs"
+grand_parent: "A7:2021 | Identity and Authentication Failure | Cycubix Docs"
+---
 # A7:2021 | Secure Passwords (3) | Cycubix Docs
 
 #### NIST password standard <a href="#nist_password_standard" id="nist_password_standard"></a>

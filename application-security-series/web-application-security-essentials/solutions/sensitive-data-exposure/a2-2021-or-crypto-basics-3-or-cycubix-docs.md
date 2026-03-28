@@ -1,3 +1,10 @@
+---
+title: "A2:2021 | Crypto Basics (3) | Cycubix Docs"
+layout: default
+nav_order: 3
+parent: "A2:2021 | Cryptographic Failures | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # A2:2021 | Crypto Basics (3) | Cycubix Docs
 
 ### Other Encoding <a href="#other_encoding" id="other_encoding"></a>
@@ -28,11 +35,11 @@ Now let’s see if you are able to find out the original password from this defa
 
 **Solution**
 
-* As provided the password encoded, we will use XOR encoding to find the password.&#x20;
+* As provided the password encoded, we will use XOR encoding to find the password. 
 * We can use the following XOR decoder: [https://strelitzia.net/wasXORdecoder/wasXORdecoder.html](https://strelitzia.net/wasXORdecoder/wasXORdecoder.html)
 
 <figure><img src="../../../../.gitbook/assets/xor encoder.png" alt=""><figcaption></figcaption></figure>
 
-* Introduce the actual password on WebGoat.&#x20;
+* Introduce the actual password on WebGoat. 
 
 <figure><img src="../../../../.gitbook/assets/xor encoder 2.png" alt=""><figcaption></figcaption></figure>

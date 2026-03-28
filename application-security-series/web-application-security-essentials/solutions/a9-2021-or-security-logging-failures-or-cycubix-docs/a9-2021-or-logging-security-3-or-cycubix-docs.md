@@ -1,10 +1,17 @@
+---
+title: "A9:2021 | Logging Security (3) | Cycubix Docs"
+layout: default
+nav_order: 3
+parent: "A9:2021 | Security Logging Failures | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # A9:2021 | Logging Security (3) | Cycubix Docs
 
 #### More About Logging <a href="#more_about_logging" id="more_about_logging"></a>
 
-As you can tell by now, log-spoofing can become an issue when users try to spoof logs. There are various ways to do this other than a form-post.&#x20;
+As you can tell by now, log-spoofing can become an issue when users try to spoof logs. There are various ways to do this other than a form-post. 
 
-Think of URL parameters or crafted JSON payloads for instance.&#x20;
+Think of URL parameters or crafted JSON payloads for instance. 
 
 * apply proper input-sanitization
 * make sure you can establish source authenticity and implement integrity controls to detect log-tampering.

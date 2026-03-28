@@ -1,3 +1,10 @@
+---
+title: "A7:2021 | Password Reset (4) | Cycubix Docs"
+layout: default
+nav_order: 4
+parent: "A7:2021 | Password Reset | Cycubix Docs"
+grand_parent: "A7:2021 | Identity and Authentication Failure | Cycubix Docs"
+---
 # A7:2021 | Password Reset (4) | Cycubix Docs
 
 ### Security questions <a href="#security_questions" id="security_questions"></a>
@@ -16,10 +23,10 @@ Users can retrieve their password if they can answer the secret question properl
 
 **Solution**
 
-* We have a hint from the previous lesson. When the user does not exists, the application says "user with this email cannot be found". Which means it does not exisste. Let's start trying with the information given. Usernames like webgoat, larry, admin and tom, with color red.&#x20;
-* If the user exists we will see the following messages: "Sorry the solution is not correct, please try again".&#x20;
-* Let's try different colors for user Tom:&#x20;
+* We have a hint from the previous lesson. When the user does not exists, the application says "user with this email cannot be found". Which means it does not exisste. Let's start trying with the information given. Usernames like webgoat, larry, admin and tom, with color red. 
+* If the user exists we will see the following messages: "Sorry the solution is not correct, please try again". 
+* Let's try different colors for user Tom: 
 
 <figure><img src="../../../../../.gitbook/assets/oracle attack.png" alt=""><figcaption></figcaption></figure>
 
-* This is called an oracle attack, which takes advantage of the ability to query the oracle and observe its responses to gain insights that should not be accessible under normal circumstances. There are several types of oracle attacks, including padding oracle attacks, format oracle attacks, and more.&#x20;
+* This is called an oracle attack, which takes advantage of the ability to query the oracle and observe its responses to gain insights that should not be accessible under normal circumstances. There are several types of oracle attacks, including padding oracle attacks, format oracle attacks, and more. 

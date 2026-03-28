@@ -1,8 +1,15 @@
+---
+title: Web Application Security Essentials
+layout: default
+nav_order: 1
+parent: Application Security Series
+has_children: true
+---
 # Web Application Security Essentials
 
 The Web Application Security Essentials course is a comprehensive and strategic overview of web application security and provides the knowledge and resources required to those responsible for implementing, managing, or protecting web applications.
 
-This course is designed around the OWASP Top 10, serving as a standard awareness document for developers and web application security. It reflects a broad consensus on the most critical security risks to web applications. For more information, visit [OWASP Top 10](https://owasp.org/www-project-top-ten/).&#x20;
+This course is designed around the OWASP Top 10, serving as a standard awareness document for developers and web application security. It reflects a broad consensus on the most critical security risks to web applications. For more information, visit [OWASP Top 10](https://owasp.org/www-project-top-ten/). 
 
 ### The **Application Security Series** of training courses are specifically designed to help stakeholders identify, mitigate, and prevent security vulnerabilities throughout the Software Development Lifecycle.
 

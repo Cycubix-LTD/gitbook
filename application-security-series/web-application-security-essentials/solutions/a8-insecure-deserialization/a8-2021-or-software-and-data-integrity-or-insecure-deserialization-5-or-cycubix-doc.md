@@ -1,3 +1,10 @@
+---
+title: "A8:2021 | Software and Data Integrity | Insecure Deserialization (5) | Cycubix Doc"
+layout: default
+nav_order: 5
+parent: "A8:2021 | Software and Data Integrity | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # A8:2021 | Software and Data Integrity | Insecure Deserialization (5) | Cycubix Doc
 
 Let’s try
@@ -15,7 +22,7 @@ Try to change this serialized object in order to delay the page response for exa
 ### Solution
 
 * Hints:  WebGoat probably contains the org.dummy.insecure.framework.VulnerableTaskHolder class as shown on the lesson pages. Use this to construct and serialize your attack. The VulnerableTaskHolder might have been updated on the server with the next version number. Not all actions are allowed anymore. The readObject has been changed. For serializing it does not effect the data. Follow the additional hints from the feedback on your attempts.
-* In order to create the attack we need to follow this 4  steps: clone the code at the WebGoat repository, compile the necessary classes, run the attack to serialized the object, and convert the token into base64. Let's break down the process:&#x20;
+* In order to create the attack we need to follow this 4  steps: clone the code at the WebGoat repository, compile the necessary classes, run the attack to serialized the object, and convert the token into base64. Let's break down the process: 
 
 a) **Clone the WebGoat repository** to access [the source code](https://github.com/WebGoat/WebGoat/blob/develop/src/it/java/org/owasp/webgoat/DeserializationIntegrationTest.java).
 
@@ -24,7 +31,7 @@ git clone https://github.com/WebGoat/WebGoat.git
 
 ```
 
-Go into the insecure deserialization java file:&#x20;
+Go into the insecure deserialization java file: 
 
 ```
 cd WebGoat/webgoat-lessons/insecure-deserialization/src/main/java/org/owasp/webgoat/deserialization
@@ -34,7 +41,7 @@ This file contains the endpoint used by WebGoat to check your token for completi
 
 **b) Compile the necessary classes** (`VulnerableTaskHolder`, `Attack`).
 
-Go into the VulnerableTaskHolder java file.&#x20;
+Go into the VulnerableTaskHolder java file. 
 
 ```
 cd WebGoat/webgoat-lessons/insecure-deserialization/src/main/java/org/dummy/insecure/framework
@@ -105,7 +112,7 @@ Compile the file
 javac VulnerableTaskHolder.java
 ```
 
-Create and compile "Attack.java".&#x20;
+Create and compile "Attack.java". 
 
 ```
 package org.dummy.insecure.framework;
@@ -139,7 +146,7 @@ java org.dummy.insecure.framework.Attack
 
 **d) Convert the serialized object to Base64** and submit it to complete the lesson
 
-Running Attack.class creates serial file which needs to be converted to base64 by means of the following command in power shell:&#x20;
+Running Attack.class creates serial file which needs to be converted to base64 by means of the following command in power shell: 
 
 ```
 # Read the binary content of the file

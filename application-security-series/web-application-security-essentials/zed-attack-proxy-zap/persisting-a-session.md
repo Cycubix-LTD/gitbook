@@ -1,10 +1,11 @@
 ---
-description: >-
-  When you first start ZAP, you will be asked if you want to persist the ZAP
-  session. Learn the difference between not persisting and persisting the ZAP
-  session.
+description: When you first start ZAP, you will be asked if you want to persist the ZAP session. Learn the difference between not persisting and persisting the ZAP session.
+title: "ZAP | Persist ZAP Session | Cycubix Docs"
+layout: default
+nav_order: 2
+parent: "ZAP | Web Application Security Essentials | Cycubix Docs"
+grand_parent: Web Application Security Essentials
 ---
-
 # ZAP | Persist ZAP Session | Cycubix Docs
 
 ## **Persist or Not to Persist Zap session**
@@ -13,6 +14,6 @@ When you first start ZAP, you will be asked if you want to persist the ZAP sessi
 
 If you choose to persist a session, the session information will be saved in the local database so you can access it later, and you will be able to provide custom names and locations for saving the files.
 
-&#x20;<img src="https://www.zaproxy.org/getting-started/images/zap-persist-session.png" alt="" data-size="original">
+ <img src="https://www.zaproxy.org/getting-started/images/zap-persist-session.png" alt="" data-size="original">
 
 For now, select **No, I do not want to persist this session at this moment in time**, then click **Start**. The ZAP sessions will not be persisted for now.

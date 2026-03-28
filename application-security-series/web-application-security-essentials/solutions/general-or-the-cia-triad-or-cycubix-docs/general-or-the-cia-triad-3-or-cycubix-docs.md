@@ -1,8 +1,15 @@
+---
+title: "General | The CIA Triad (3) | Cycubix Docs"
+layout: default
+nav_order: 3
+parent: "General | The CIA Triad | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # General | The CIA Triad (3) | Cycubix Docs
 
 ## Integrity
 
-Integrity is "the property of accuracy and completeness." In other words, integrity means maintaining the consistency, accuracy, and trustworthiness of data over its entire life cycle.&#x20;
+Integrity is "the property of accuracy and completeness." In other words, integrity means maintaining the consistency, accuracy, and trustworthiness of data over its entire life cycle. 
 
 Data must not change during transit, and unauthorized entities should not alter the data.
 

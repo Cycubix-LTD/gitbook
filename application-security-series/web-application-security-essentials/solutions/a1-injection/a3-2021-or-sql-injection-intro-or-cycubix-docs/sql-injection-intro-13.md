@@ -1,10 +1,11 @@
 ---
-description: >-
-  After compromising confidentiality and integrity in the previous lessons, we
-  now are going to compromise the third element of the CIA triad availability.
-  Read more
+description: After compromising confidentiality and integrity in the previous lessons, we now are going to compromise the third element of the CIA triad availability. Read more
+title: "A3:2021 | SQL Injection Intro (13) | Cycubix Docs"
+layout: default
+nav_order: 13
+parent: "A3:2021 | SQL Injection Intro | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
 ---
-
 # A3:2021 | SQL Injection Intro (13) | Cycubix Docs
 
 ### Compromising Availability <a href="#compromising_availability" id="compromising_availability"></a>
@@ -23,8 +24,8 @@ Better go and _delete it_ completely before anyone notices.
 
 #### Solution
 
-* Given that actions log table cointains the history of all statements ran by all users we can use the command DROP with DDL.&#x20;
-* Given the Hint "&#x54;_&#x68;e underlying SQL query looks like that: "SELECT \* FROM access\_log WHERE action LIKE '%" + action + "%_'", we can know the structure of the statement in the server.&#x20;
+* Given that actions log table cointains the history of all statements ran by all users we can use the command DROP with DDL. 
+* Given the Hint "&#x54;_&#x68;e underlying SQL query looks like that: "SELECT \* FROM access\_log WHERE action LIKE '%" + action + "%_'", we can know the structure of the statement in the server. 
 * The Like operator supports two main wildcard characters for pattern matching:
 
 **Percent Sign (`%`)**: Represents zero, one, or multiple characters.

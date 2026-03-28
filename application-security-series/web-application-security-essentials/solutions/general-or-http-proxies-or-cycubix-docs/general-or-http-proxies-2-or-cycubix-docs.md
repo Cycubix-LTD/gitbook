@@ -1,3 +1,10 @@
+---
+title: "General | HTTP Proxies (2) | Cycubix Docs"
+layout: default
+nav_order: 2
+parent: "General | HTTP Proxies | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # General | HTTP Proxies (2) | Cycubix Docs
 
 ## Proxy Setup

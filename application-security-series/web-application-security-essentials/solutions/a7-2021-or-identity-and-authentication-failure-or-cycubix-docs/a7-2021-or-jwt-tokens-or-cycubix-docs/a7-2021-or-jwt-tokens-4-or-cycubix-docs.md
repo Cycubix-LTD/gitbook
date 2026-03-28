@@ -1,3 +1,10 @@
+---
+title: "A7: 2021 | JWT Tokens (4) | Cycubix Docs"
+layout: default
+nav_order: 4
+parent: "A7: 2021 | JWT Tokens | Cycubix Docs"
+grand_parent: "A7:2021 | Identity and Authentication Failure | Cycubix Docs"
+---
 # A7: 2021 | JWT Tokens (4) | Cycubix Docs
 
 ### Decoding a JWT token <a href="#decoding_a_jwt_token" id="decoding_a_jwt_token"></a>
@@ -15,12 +22,12 @@ Copy and paste the following token and decode the token, can you find the user i
 **Solution**
 
 * The exercise require us to use the JWT functionality within WebWolf. We could also use [JWT](https://jwt.io/)
-* Copy the given token, and open WebWolf. Go into the JWT tab. Paste the token.&#x20;
+* Copy the given token, and open WebWolf. Go into the JWT tab. Paste the token. 
 
-&#x20;
+ 
 
 <figure><img src="../../../../../.gitbook/assets/use jwt webwolf.png" alt=""><figcaption></figcaption></figure>
 
-* Copy user name and paste it on WebGoat exercise.&#x20;
+* Copy user name and paste it on WebGoat exercise. 
 
 <figure><img src="../../../../../.gitbook/assets/jwt user .png" alt=""><figcaption></figcaption></figure>

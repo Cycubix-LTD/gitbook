@@ -1,3 +1,10 @@
+---
+title: "A10:2021 | Server Side Request Forgery | Cross Site Request Forgery (9) | Cycubix Docs"
+layout: default
+nav_order: 9
+parent: "A10:2021 | Server Side Request Forgery | Cross Site Request Forgery | Cycubix Docs"
+grand_parent: "A10: 2021 | Server Side Request Forgery | Cycubix Docs"
+---
 # A10:2021 | Server Side Request Forgery | Cross Site Request Forgery (9) | Cycubix Docs
 
 ### CSRF Impact <a href="#csrf_impact" id="csrf_impact"></a>
@@ -8,7 +15,7 @@ The impact is limited only by what the logged in user can do (if the site/functi
 
 #### Same site cookie attribute <a href="#same_site_cookie_attribute" id="same_site_cookie_attribute"></a>
 
-This is a new extension which modern browsers support which limits the scope of the cookie such that it will only be attached to requests if those requests are 'same-site' For example requests for [`http://webgoat.org/something`](http://webgoat.org/something) will attach same-site cookies if the request is initiated from `webgoat.org`.&#x20;
+This is a new extension which modern browsers support which limits the scope of the cookie such that it will only be attached to requests if those requests are 'same-site' For example requests for [`http://webgoat.org/something`](http://webgoat.org/something) will attach same-site cookies if the request is initiated from `webgoat.org`. 
 
 There are two modes, strict and lax. The first one does not allow cross site request, this means when you are on github.com and you want to like it through Facebook (and Facebook specifies same-site as strict) you will be redirected to the login page, because the browser does not attach the cookie for Facebook. More information can be found here: [https://www.sjoerdlangkemper.nl/2016/04/14/preventing-csrf-with-samesite-cookie-attribute/](https://www.sjoerdlangkemper.nl/2016/04/14/preventing-csrf-with-samesite-cookie-attribute/)
 

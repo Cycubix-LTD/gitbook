@@ -1,3 +1,10 @@
+---
+title: "A3:2021 | Cross Site Scripting (XSS) (9) | Cycubix Docs"
+layout: default
+nav_order: 9
+parent: "A3:2021 | Cross-Site Scripting (XSS) | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3:2021 | Cross Site Scripting (XSS) (9) | Cycubix Docs
 
 ### Reflected and DOM-Based XSS <a href="#reflected_and_dom_based_xss" id="reflected_and_dom_based_xss"></a>

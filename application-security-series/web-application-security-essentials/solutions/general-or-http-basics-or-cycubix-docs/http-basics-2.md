@@ -1,3 +1,10 @@
+---
+title: "General | HTTP Basics (2) | Cycubix Docs"
+layout: default
+nav_order: 2
+parent: "General | HTTP Basics | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # General | HTTP Basics (2) | Cycubix Docs
 
 ## Try It! <a href="#try_it" id="try_it"></a>
@@ -8,9 +15,9 @@ Enter your name in the input field below and press "Go!" to submit. The server w
 
 ## Hints
 
-{% hint style="info" %}
-Type in your name and press 'go'
-{% endhint %}
+> ℹ️ **Info**
+>
+> Type in your name and press 'go'
 
 ## Solution
 

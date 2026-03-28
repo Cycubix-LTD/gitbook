@@ -1,3 +1,10 @@
+---
+title: "A7: 2021 | JWT Tokens (7) | Cycubix Docs"
+layout: default
+nav_order: 7
+parent: "A7: 2021 | JWT Tokens | Cycubix Docs"
+grand_parent: "A7:2021 | Identity and Authentication Failure | Cycubix Docs"
+---
 # A7: 2021 | JWT Tokens (7) | Cycubix Docs
 
 #### Solution <a href="#solution" id="solution"></a>
@@ -70,5 +77,5 @@ For more information take a look at the following video:\\
 
 <br>
 
-{% embed url="https://youtu.be/wt3UixCiPfo" %}
+[https://youtu.be/wt3UixCiPfo](https://youtu.be/wt3UixCiPfo)
 

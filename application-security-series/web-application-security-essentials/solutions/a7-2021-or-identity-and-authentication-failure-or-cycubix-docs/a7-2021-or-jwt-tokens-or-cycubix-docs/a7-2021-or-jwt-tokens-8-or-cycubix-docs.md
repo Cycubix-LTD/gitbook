@@ -1,3 +1,10 @@
+---
+title: "A7: 2021 | JWT Tokens (8) | Cycubix Docs"
+layout: default
+nav_order: 8
+parent: "A7: 2021 | JWT Tokens | Cycubix Docs"
+grand_parent: "A7:2021 | Identity and Authentication Failure | Cycubix Docs"
+---
 # A7: 2021 | JWT Tokens (8) | Cycubix Docs
 
 ### Code review <a href="#code_review" id="code_review"></a>
@@ -56,19 +63,19 @@ try {
 
 Can you spot the weakness?
 
-_What is the result of the first code snippet?_&#x20;
+_What is the result of the first code snippet?_ 
 
-**Solution 1: Throws an exception in line 12.**&#x20;
+**Solution 1: Throws an exception in line 12.** 
 
-Solution 2: Invoke the method removeALLUSERS at line 7.&#x20;
+Solution 2: Invoke the method removeALLUSERS at line 7. 
 
-Solution 3: logs and error in line 9.&#x20;
+Solution 3: logs and error in line 9. 
 
 _What is the result of the second code snippet?_
 
-Solution 1: Throws and exception in line 12.&#x20;
+Solution 1: Throws and exception in line 12. 
 
-**Solution 2: Invoke the method removeALLUSERS at line 7.**&#x20;
+**Solution 2: Invoke the method removeALLUSERS at line 7.** 
 
 Solution 3: logs and error in line 9.
 

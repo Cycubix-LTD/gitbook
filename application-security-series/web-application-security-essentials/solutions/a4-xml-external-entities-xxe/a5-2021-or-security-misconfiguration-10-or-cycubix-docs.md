@@ -1,3 +1,10 @@
+---
+title: "A5:2021 | Security Misconfiguration (10) | Cycubix Docs"
+layout: default
+nav_order: 10
+parent: "A5:2021 | Security Misconfiguration | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # A5:2021 | Security Misconfiguration (10) | Cycubix Docs
 
 ### Blind XXE <a href="#blind_xxe" id="blind_xxe"></a>

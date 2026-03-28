@@ -1,3 +1,10 @@
+---
+title: "A3:2021 | Cross Site Scripting (XSS) (2) | Cycubix Docs"
+layout: default
+nav_order: 2
+parent: "A3:2021 | Cross-Site Scripting (XSS) | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3:2021 | Cross Site Scripting (XSS) (2) | Cycubix Docs
 
 ### What is XSS? <a href="#what_is_xss" id="what_is_xss"></a>

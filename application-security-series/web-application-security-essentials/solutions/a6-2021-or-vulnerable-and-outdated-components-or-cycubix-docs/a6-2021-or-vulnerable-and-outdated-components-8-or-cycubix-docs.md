@@ -1,3 +1,10 @@
+---
+title: "A6:2021 | Vulnerable and Outdated Components (8) | Cycubix Docs"
+layout: default
+nav_order: 8
+parent: "A6:2021 | Vulnerable and Outdated Components | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # A6:2021 | Vulnerable and Outdated Components (8) | Cycubix Docs
 
 ### Security Information Overload <a href="#security_information_overload" id="security_information_overload"></a>

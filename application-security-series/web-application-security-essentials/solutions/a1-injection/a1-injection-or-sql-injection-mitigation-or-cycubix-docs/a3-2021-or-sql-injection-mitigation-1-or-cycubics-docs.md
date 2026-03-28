@@ -1,3 +1,10 @@
+---
+title: "A3:2021 | SQL Injection Mitigation (1) | Cycubics Docs"
+layout: default
+nav_order: 1
+parent: "A3:2021 | Injection | SQL Injection Mitigation | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3:2021 | SQL Injection Mitigation (1) | Cycubics Docs
 
 ### Immutable Queries <a href="#immutable_queries" id="immutable_queries"></a>

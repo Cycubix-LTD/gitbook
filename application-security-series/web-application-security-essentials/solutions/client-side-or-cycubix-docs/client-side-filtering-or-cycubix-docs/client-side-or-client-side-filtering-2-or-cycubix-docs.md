@@ -1,3 +1,10 @@
+---
+title: "Client Side | Client Side Filtering (2) | Cycubix Docs"
+layout: default
+nav_order: 2
+parent: "Client Side Filtering | Cycubix Docs"
+grand_parent: "Client Side | Cycubix Docs"
+---
 # Client Side | Client Side Filtering (2) | Cycubix Docs
 
 ### Salary manager <a href="#salary_manager" id="salary_manager"></a>
@@ -8,10 +15,10 @@ You are logged in as Moe Stooge, CSO of Goat Hills Financial. You have access to
 
 **Solution**
 
-* Open the developer tools and find the list of employees and the names of the input fields.&#x20;
+* Open the developer tools and find the list of employees and the names of the input fields. 
 
 <figure><img src="../../../../../.gitbook/assets/List of employees.png" alt=""><figcaption></figcaption></figure>
 
-* We need to find Neville Bartholomew’s salary, but we cannot see it in the menu. However, we can see a HiddenEmployeeRecords.&#x20;
+* We need to find Neville Bartholomew’s salary, but we cannot see it in the menu. However, we can see a HiddenEmployeeRecords. 
 
 <figure><img src="../../../../../.gitbook/assets/neville.png" alt=""><figcaption></figcaption></figure>

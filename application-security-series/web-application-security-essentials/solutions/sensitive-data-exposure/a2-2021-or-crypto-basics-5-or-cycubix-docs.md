@@ -1,3 +1,10 @@
+---
+title: "A2:2021 | Crypto Basics (5) | Cycubix Docs"
+layout: default
+nav_order: 5
+parent: "A2:2021 | Cryptographic Failures | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # A2:2021 | Crypto Basics (5) | Cycubix Docs
 
 ### Symmetric encryption <a href="#symmetric_encryption" id="symmetric_encryption"></a>
@@ -11,9 +18,9 @@ Example protocols are:
 
 ### Asymmetric encryption <a href="#asymmetric_encryption" id="asymmetric_encryption"></a>
 
-Asymmetric encryption is based on mathematical principles that consist of a key pair.&#x20;
+Asymmetric encryption is based on mathematical principles that consist of a key pair. 
 
-The two keys are usually called a private key and a public key. The private key needs to be protected very well and is only known to one party. All others can freely use the public key.&#x20;
+The two keys are usually called a private key and a public key. The private key needs to be protected very well and is only known to one party. All others can freely use the public key. 
 
 Something encrypted with the private key can be decrypted by all that have the public key, and something encrypted with the public key can only be decrypted with the private key.
 
@@ -26,7 +33,7 @@ Example protocols are:
 
 Here is a short description of what happens if you open your browser and go to an https site.
 
-* Your browser connects to the server and gets the webserver certificate.&#x20;
+* Your browser connects to the server and gets the webserver certificate. 
 * Your browser checks if it trusts the certificate issuer by checking if the issuer certificate is in its trust store. This trust store is managed by operating system and browser updates. And on some corporate networks it is managed by the company. From the certificate the browser obtains the public key.
 * The browser now generates random bytes to be used to generate a symmetric key and encrypts this with the public key of the server. So only the server can decrypt it.
 * At the end of this process both the browser and the webserver will use the exchanged symmetric key (in the asymmetric key exchange process) to encrypt and decrypt messages that are sent back and forth between the browser and the webserver.

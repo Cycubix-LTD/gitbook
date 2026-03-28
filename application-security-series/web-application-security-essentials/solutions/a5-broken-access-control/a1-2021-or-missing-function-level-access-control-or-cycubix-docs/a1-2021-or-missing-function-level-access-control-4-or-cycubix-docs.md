@@ -1,3 +1,10 @@
+---
+title: "A1:2021 | Missing Function Level Access Control (4) | Cycubix Docs"
+layout: default
+nav_order: 4
+parent: "A1:2021 | Missing Function Level Access Control | Cycubix Docs"
+grand_parent: "A1:2021 | Broken Access Control | Cycubix Docs"
+---
 # A1:2021 | Missing Function Level Access Control (4) | Cycubix Docs
 
 **The company fixed the problem, right?**
@@ -11,7 +18,7 @@ Start with the information you already gathered (hidden menu items) to see if yo
 **Solution**
 
 * Remember Jerry's hash from the previous exercise? .  The exercise likely involves understanding how to generate a secure hash using a combination of a password, salt, and username.
-* We tried to access the endpoint through Admin privileges but we couldn't. So let's break down the solution Code to solve this:&#x20;
+* We tried to access the endpoint through Admin privileges but we couldn't. So let's break down the solution Code to solve this: 
 
 ```
 import java.nio.charset.StandardCharsets;
@@ -43,7 +50,7 @@ public class Main{
 ```
 
 * In this code we are using a strong salt (`DeliberatelyInsecure1235`), combining the password, salt, and username to create a single string, generating a SHA-256 hash from the combined string, and encoding the hash to a base64 string for easy display or storage.
-* The Main method class contains the entry point of the program. The variables are:&#x20;
+* The Main method class contains the entry point of the program. The variables are: 
 
 `String password = "doesnotreallymatter";`: The password used (does not need to be real for hashing).
 
@@ -55,11 +62,11 @@ public class Main{
 
 Use `MessageDigest` to get an instance of `SHA-256`.
 
-* Save the code as a Java File "Main".  Open command prompt to compile the file.&#x20;
+* Save the code as a Java File "Main".  Open command prompt to compile the file. 
 
 <figure><img src="../../../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
-* Copy and paste the hash for Jerry in WebGoat.&#x20;
+* Copy and paste the hash for Jerry in WebGoat. 
 
 <figure><img src="../../../../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
@@ -75,9 +82,9 @@ Use `MessageDigest` to get an instance of `SHA-256`.
 
 **Syntax related issues**
 
-* Make sure you name you r Java file as Main. If add another term do not leave spaces in between. The syntax must be correct in order to compile the file.&#x20;
-* How to compile it?&#x20;
-* Open a terminal or command prompt.&#x20;
+* Make sure you name you r Java file as Main. If add another term do not leave spaces in between. The syntax must be correct in order to compile the file. 
+* How to compile it? 
+* Open a terminal or command prompt. 
 * Navigate to the directory where your Java file (Main.java) is located.
 * Compile the Java file using the javac command: javac Main.java
 * This command will compile the Main.java file and generate a corresponding .class file.

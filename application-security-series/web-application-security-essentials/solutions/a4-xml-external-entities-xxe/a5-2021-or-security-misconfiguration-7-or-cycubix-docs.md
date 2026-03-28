@@ -1,3 +1,10 @@
+---
+title: "A5:2021 | Security Misconfiguration (7) | Cycubix Docs"
+layout: default
+nav_order: 7
+parent: "A5:2021 | Security Misconfiguration | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # A5:2021 | Security Misconfiguration (7) | Cycubix Docs
 
 ### Modern REST framework <a href="#modern_rest_framework" id="modern_rest_framework"></a>
@@ -10,24 +17,24 @@ Again same exercise but try to perform the same XML injection as we did in first
 
 #### Solution
 
-* Hints: Take a look at the content type. Does the endpoint only accept json messages?.&#x20;
-* Like in the previous exercise, we can use our Development Tools, Burp or Zap.&#x20;
-* When you insert a comment see what is the answer.&#x20;
+* Hints: Take a look at the content type. Does the endpoint only accept json messages?. 
+* Like in the previous exercise, we can use our Development Tools, Burp or Zap. 
+* When you insert a comment see what is the answer. 
 
 <figure><img src="../../../../.gitbook/assets/content type false.png" alt=""><figcaption></figcaption></figure>
 
-* Let's change the content type from JSON to XXE.&#x20;
+* Let's change the content type from JSON to XXE. 
 
 With Burp or ZAP
 
-* Open the browser and turn the interceptor on Navigate into [http://localhost:8080/WebGoat](http://localhost:8080/WebGoat) and the corresponding lesson.&#x20;
-* Submit a comment and intercept the request with the corresponding tool (ZAP or Burp).&#x20;
-* Send the request to the Repeater (Burp) or Request Editor (ZAP).&#x20;
-* Change the request accordingly:&#x20;
+* Open the browser and turn the interceptor on Navigate into [http://localhost:8080/WebGoat](http://localhost:8080/WebGoat) and the corresponding lesson. 
+* Submit a comment and intercept the request with the corresponding tool (ZAP or Burp). 
+* Send the request to the Repeater (Burp) or Request Editor (ZAP). 
+* Change the request accordingly: 
 
-Edit header: from Content-Type: application/json to Content-Type: application/xml.&#x20;
+Edit header: from Content-Type: application/json to Content-Type: application/xml. 
 
-Edit {"text":"your comment} to&#x20;
+Edit {"text":"your comment} to 
 
 `<?xml version="1.0"?><!DOCTYPE comment [<!ENTITY xxe SYSTEM "file:///">]><comment><text>&xxe;</text></comment>`
 
@@ -40,7 +47,7 @@ Edit {"text":"your comment} to&#x20;
 * Open the _Development Tools_ in the browser, and go to the _Network_ tab.
 * On WebGoat, post a comment.
 * Find the request related to posting the comment. It will typically have a POST method.
-* Change the body and header with:&#x20;
+* Change the body and header with: 
 
 Edit the body with:
 
@@ -48,7 +55,7 @@ Edit the body with:
  <?xml version="1.0"?><!DOCTYPE comment [<!ENTITY xxe SYSTEM "file:///">]><comment><text>&xxe;</text></comment>. 
 ```
 
-Edit the header&#x20;
+Edit the header 
 
 ```
 Content-Type: application/json with Content-Type: application/xml

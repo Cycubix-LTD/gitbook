@@ -1,3 +1,10 @@
+---
+title: "A1:2021 | Hijack a Session (1) | Cycubix Docs"
+layout: default
+nav_order: 1
+parent: "A1:2021 | Hijack a Session | Cycubix Docs"
+grand_parent: "A1:2021 | Broken Access Control | Cycubix Docs"
+---
 # A1:2021 | Hijack a Session (1) | Cycubix Docs
 
 ## Concept <a href="#concept" id="concept"></a>

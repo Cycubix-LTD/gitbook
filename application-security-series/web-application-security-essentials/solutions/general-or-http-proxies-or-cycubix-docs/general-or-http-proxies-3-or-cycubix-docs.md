@@ -1,3 +1,10 @@
+---
+title: "General | HTTP Proxies (3) | Cycubix Docs"
+layout: default
+nav_order: 3
+parent: "General | HTTP Proxies | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # General | HTTP Proxies (3) | Cycubix Docs
 
 ## Setting Up a Browser
@@ -6,7 +13,7 @@ If you use the latest ZAP version (>= 2.15.0), you only need to start ZAP and cl
 
 <figure><img src="../../../../.gitbook/assets/http proxies part 3.png" alt=""><figcaption></figcaption></figure>
 
-In the browser type: [https://localhost:8080/WebGoat](https://localhost:8080/WebGoat), you should see WebGoat and the ZAP Heads On Display (if you use  ZAP as the proxy) (\*).&#x20;
+In the browser type: [https://localhost:8080/WebGoat](https://localhost:8080/WebGoat), you should see WebGoat and the ZAP Heads On Display (if you use  ZAP as the proxy) (\*). 
 
 You might notice that this is the Dutch login screen. The browser determines the language settings. For some pages, there will be some local translations. You can contribute to WebGoat and add more for your preferred language. You can disable the Heads On Display by clicking on the highlighted button. You can learn about the OWASP ZAP HUD on their website. For now, we recommend disabling it as it kind of blocks the menu items.
 

@@ -1,3 +1,10 @@
+---
+title: "A3:2021 | SQL Injection Advanced (6)| Cycubix Docs"
+layout: default
+nav_order: 6
+parent: "A3:2021 | SQL Injection Advanced | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3:2021 | SQL Injection Advanced (6)| Cycubix Docs
 
 
@@ -10,7 +17,7 @@ Now it is time for a quiz! It is recommended to do all SQL injection lessons bef
 
 **2. Which one of the following characters is a placeholder for variables?**
 
-Option 3:&#x20;
+Option 3: 
 
 **3. How can prepared statements be faster than statements?**
 

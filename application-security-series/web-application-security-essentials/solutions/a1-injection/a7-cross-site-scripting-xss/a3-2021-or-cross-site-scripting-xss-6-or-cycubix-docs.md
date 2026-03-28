@@ -1,3 +1,10 @@
+---
+title: "A3:2021 | Cross Site Scripting (XSS) (6) | Cycubix Docs"
+layout: default
+nav_order: 6
+parent: "A3:2021 | Cross-Site Scripting (XSS) | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3:2021 | Cross Site Scripting (XSS) (6) | Cycubix Docs
 
 ### Reflected XSS scenario <a href="#reflected_xss_scenario" id="reflected_xss_scenario"></a>

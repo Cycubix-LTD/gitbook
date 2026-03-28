@@ -1,3 +1,10 @@
+---
+title: "A2:2021 | Crypto Basics (2)  | Cycubix Docs"
+layout: default
+nav_order: 2
+parent: "A2:2021 | Cryptographic Failures | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # A2:2021 | Crypto Basics (2)  | Cycubix Docs
 
 ### Base64 Encoding <a href="#base64_encoding" id="base64_encoding"></a>
@@ -34,11 +41,11 @@ Authorization: Basic bXl1c2VyOm15cGFzc3dvcmQ=
 
 **Solution**
 
-* Go to [https://www.base64decode.org/](https://www.base64decode.org/) and decode the authorization header "d2ViZ29hdHRlc3Q3OnNlY3JldA==".&#x20;
+* Go to [https://www.base64decode.org/](https://www.base64decode.org/) and decode the authorization header "d2ViZ29hdHRlc3Q3OnNlY3JldA==". 
 
 <figure><img src="../../../../.gitbook/assets/crypto basics 1.png" alt=""><figcaption></figcaption></figure>
 
-* It will decode you username and password.&#x20;
-* Type those results in WebGoat.&#x20;
+* It will decode you username and password. 
+* Type those results in WebGoat. 
 
 <figure><img src="../../../../.gitbook/assets/crypto basics 2.png" alt=""><figcaption></figcaption></figure>

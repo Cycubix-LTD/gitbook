@@ -1,3 +1,10 @@
+---
+title: "A7:2021 | Insecure Login (2) | Cycubix Docs"
+layout: default
+nav_order: 2
+parent: "A7:2021 | Insecure Login | Cycubix Docs"
+grand_parent: "A7:2021 | Identity and Authentication Failure | Cycubix Docs"
+---
 # A7:2021 | Insecure Login (2) | Cycubix Docs
 
 #### Let’s try <a href="#lets_try" id="lets_try"></a>

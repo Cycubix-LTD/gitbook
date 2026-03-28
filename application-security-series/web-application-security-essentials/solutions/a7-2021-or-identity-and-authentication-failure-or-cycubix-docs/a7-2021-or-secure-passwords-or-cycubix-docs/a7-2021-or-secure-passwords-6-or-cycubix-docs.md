@@ -1,3 +1,10 @@
+---
+title: "A7:2021 | Secure Passwords (6) | Cycubix Docs"
+layout: default
+nav_order: 6
+parent: "A7:2021 | Secure Passwords | Cycubix Docs"
+grand_parent: "A7:2021 | Identity and Authentication Failure | Cycubix Docs"
+---
 # A7:2021 | Secure Passwords (6) | Cycubix Docs
 
 #### Storing passwords <a href="#storing_passwords" id="storing_passwords"></a>

@@ -1,3 +1,10 @@
+---
+title: "A10:2021 | Server Side Request Forgery (4) | Cycubix Docs"
+layout: default
+nav_order: 4
+parent: "A10:2021 | Client Side Request Forgery | Cycubix Docs"
+grand_parent: "A10: 2021 | Server Side Request Forgery | Cycubix Docs"
+---
 # A10:2021 | Server Side Request Forgery (4) | Cycubix Docs
 
 ### Prevent <a href="#prevent" id="prevent"></a>

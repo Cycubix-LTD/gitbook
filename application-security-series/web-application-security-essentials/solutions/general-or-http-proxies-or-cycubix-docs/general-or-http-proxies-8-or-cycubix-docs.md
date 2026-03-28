@@ -1,3 +1,10 @@
+---
+title: "General | HTTP Proxies (8) | Cycubix Docs"
+layout: default
+nav_order: 8
+parent: "General | HTTP Proxies | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # General | HTTP Proxies (8) | Cycubix Docs
 
 ## Manually Setting Up a Proxy
@@ -29,7 +36,7 @@ To manually configure a proxy in the browser, follow one of the configurations b
 * Select _Advanced_ on the left
 * Select _Network_ in the Advanced Pane
 * Click _Settings_
-* Select _Manual proxy configuration_&#x20;
+* Select _Manual proxy configuration_ 
 
 input **127.0.0.1** as the proxy (or www.webgoat.local depending on the choice you made above)
 

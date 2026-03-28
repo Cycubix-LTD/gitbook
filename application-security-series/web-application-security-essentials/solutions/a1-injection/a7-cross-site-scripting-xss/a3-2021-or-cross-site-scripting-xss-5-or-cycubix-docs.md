@@ -1,3 +1,10 @@
+---
+title: "A3:2021 | Cross Site Scripting (XSS) (5) | Cycubix Docs"
+layout: default
+nav_order: 5
+parent: "A3:2021 | Cross-Site Scripting (XSS) | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3:2021 | Cross Site Scripting (XSS) (5) | Cycubix Docs
 
 ### Types of XSS <a href="#types_of_xss" id="types_of_xss"></a>

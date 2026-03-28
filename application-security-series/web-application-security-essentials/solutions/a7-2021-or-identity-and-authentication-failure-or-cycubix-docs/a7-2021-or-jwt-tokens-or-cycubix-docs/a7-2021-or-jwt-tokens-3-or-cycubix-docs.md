@@ -1,3 +1,10 @@
+---
+title: "A7: 2021 | JWT Tokens (3) | Cycubix Docs"
+layout: default
+nav_order: 3
+parent: "A7: 2021 | JWT Tokens | Cycubix Docs"
+grand_parent: "A7:2021 | Identity and Authentication Failure | Cycubix Docs"
+---
 # A7: 2021 | JWT Tokens (3) | Cycubix Docs
 
 ### JWT claim misuse <a href="#jwt_claim_misuse" id="jwt_claim_misuse"></a>

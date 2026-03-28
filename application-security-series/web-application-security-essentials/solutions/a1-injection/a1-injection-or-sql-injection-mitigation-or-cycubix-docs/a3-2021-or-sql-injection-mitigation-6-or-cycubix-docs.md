@@ -1,3 +1,10 @@
+---
+title: "A3:2021 | SQL Injection Mitigation (6) | Cycubix Docs"
+layout: default
+nav_order: 6
+parent: "A3:2021 | Injection | SQL Injection Mitigation | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3:2021 | SQL Injection Mitigation (6) | Cycubix Docs
 
 ### Try it! Writing safe code <a href="#try_it_writing_safe_code" id="try_it_writing_safe_code"></a>
@@ -38,8 +45,8 @@ Use your knowledge and write some valid code from scratch in the editor window d
 
 **Solution**
 
-* The code will handle database connections properly, use parameterized queries to prevent SQL injection, and include error handling.&#x20;
-* You will have to think about creating a code that has three blocks:&#x20;
+* The code will handle database connections properly, use parameterized queries to prevent SQL injection, and include error handling. 
+* You will have to think about creating a code that has three blocks: 
 
 **Try Block**: The code to establish the connection and perform database operations is placed inside the try block.
 

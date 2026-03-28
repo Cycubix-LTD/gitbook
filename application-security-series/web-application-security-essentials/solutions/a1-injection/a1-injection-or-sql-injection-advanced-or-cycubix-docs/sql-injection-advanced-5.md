@@ -1,3 +1,10 @@
+---
+title: "A3:2021 |SQL Injection Advanced (5) | Cycubix Docs"
+layout: default
+nav_order: 5
+parent: "A3:2021 | SQL Injection Advanced | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3:2021 |SQL Injection Advanced (5) | Cycubix Docs
 
 We now explained the basic steps involved in an SQL injection. In this assignment you will need to combine all the things we explained in the SQL lessons.
@@ -14,27 +21,27 @@ Have fun!
 * Find the field which is vulnerable to SQL injection use that to change the password.
 * Change the password through an UPDATE Statement.
 * The vulnerable field is the username field of the register form.
-* Look at the different response you receive from the server.&#x20;
-* The vulnerability is on the register form.&#x20;
-* Use tooling to automate this attack.&#x20;
+* Look at the different response you receive from the server. 
+* The vulnerability is on the register form. 
+* Use tooling to automate this attack. 
 
 #### Solution
 
-* From the hints we know that the vulnerable field is in the username field on the register form.&#x20;
-* We can also use in our basic SQL Injection setup a pre-configured user name such as Tom. We will see that the user is already registered.&#x20;
-* We can guess that the table we are seeking is named `password` (_guessing_).&#x20;
+* From the hints we know that the vulnerable field is in the username field on the register form. 
+* We can also use in our basic SQL Injection setup a pre-configured user name such as Tom. We will see that the user is already registered. 
+* We can guess that the table we are seeking is named `password` (_guessing_). 
 * If we try to register with the following username: `tom' AND '1'='1` we find that the username is taken.
 
 <figure><img src="../../../../../.gitbook/assets/tom sql advances.png" alt=""><figcaption></figcaption></figure>
 
-* So the basic initial SQL injection will start with Tom, and then close the Statement. Tom'. We need to find Tom's password in order to log in.&#x20;
-* Using a Blind Injection SQL we can ask the database for true and false responses and determine the answer according to the application response.&#x20;
+* So the basic initial SQL injection will start with Tom, and then close the Statement. Tom'. We need to find Tom's password in order to log in. 
+* Using a Blind Injection SQL we can ask the database for true and false responses and determine the answer according to the application response. 
 * The initial part of the input (`"Tom'`) closes the current SQL statement or string context. We can add the condition `substring(password, 1, 1) = 't` to check if the first character of the password is `'t`.
 
 Tom' AND substring(password, 1, 1) = 't
 
-* How can we automate the attack with Burp or Zap?. We can either use the intruder, selecting the variable to attack and find the rest of the characters after the 't' on the password. The tools available are Fuzz (Zap) or Intruder/brute force (Burp).&#x20;
-* We can also automate the procedure to find the solution using Python and the following script:&#x20;
+* How can we automate the attack with Burp or Zap?. We can either use the intruder, selecting the variable to attack and find the rest of the characters after the 't' on the password. The tools available are Fuzz (Zap) or Intruder/brute force (Burp). 
+* We can also automate the procedure to find the solution using Python and the following script: 
 
 ```
 import json  

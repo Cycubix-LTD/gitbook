@@ -1,3 +1,10 @@
+---
+title: "Client Side | Bypass Front End Restrictions (1) | Cycubix Docs"
+layout: default
+nav_order: 1
+parent: "Client Side | Bypass Front End Restrictions | Cycubix Docs"
+grand_parent: "Client Side | Cycubix Docs"
+---
 # Client Side | Bypass Front End Restrictions (1) | Cycubix Docs
 
 ### Concept <a href="#concept" id="concept"></a>

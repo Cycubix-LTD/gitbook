@@ -1,3 +1,10 @@
+---
+title: "General | Developer Tools (5) | Cycubix Docs"
+layout: default
+nav_order: 5
+parent: "General | Developer Tools | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # General | Developer Tools (5) | Cycubix Docs
 
 ## **Sources Tab**

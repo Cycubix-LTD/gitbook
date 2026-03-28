@@ -1,9 +1,12 @@
 ---
-description: >-
-  This lesson describes what Cross-Site Scripting (XSS) is and how it can be
-  used to perform tasks that were not the original intent of the developer.
+description: This lesson describes what Cross-Site Scripting (XSS) is and how it can be used to perform tasks that were not the original intent of the developer.
+title: "A3:2021 | Cross-Site Scripting (XSS) | Cycubix Docs"
+layout: default
+nav_order: 4
+parent: "A3:2021 | Injection | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+has_children: true
 ---
-
 # A3:2021 | Cross-Site Scripting (XSS) | Cycubix Docs
 
 ### Goals <a href="#goals" id="goals"></a>

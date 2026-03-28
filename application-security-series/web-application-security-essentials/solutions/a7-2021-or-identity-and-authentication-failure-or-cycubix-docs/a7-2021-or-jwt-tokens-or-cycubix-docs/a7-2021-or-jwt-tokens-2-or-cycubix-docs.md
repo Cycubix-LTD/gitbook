@@ -1,3 +1,10 @@
+---
+title: "A7: 2021 | JWT Tokens (2) | Cycubix Docs"
+layout: default
+nav_order: 2
+parent: "A7: 2021 | JWT Tokens | Cycubix Docs"
+grand_parent: "A7:2021 | Identity and Authentication Failure | Cycubix Docs"
+---
 # A7: 2021 | JWT Tokens (2) | Cycubix Docs
 
 ### Structure of a JWT token <a href="#structure_of_a_jwt_token" id="structure_of_a_jwt_token"></a>

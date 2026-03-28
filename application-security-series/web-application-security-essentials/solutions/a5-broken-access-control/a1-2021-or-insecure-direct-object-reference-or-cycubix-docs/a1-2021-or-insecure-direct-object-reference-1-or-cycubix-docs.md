@@ -1,6 +1,13 @@
+---
+title: "A1:2021 | Insecure Direct Object Reference (1) | Cycubix Docs"
+layout: default
+nav_order: 1
+parent: "A1:2021 | Insecure Direct Object Reference | Cycubix Docs"
+grand_parent: "A1:2021 | Broken Access Control | Cycubix Docs"
+---
 # A1:2021 | Insecure Direct Object Reference (1) | Cycubix Docs
 
-Direct Object References are when an application uses client-provided input to access data & objects.&#x20;
+Direct Object References are when an application uses client-provided input to access data & objects. 
 
 **Insecure Direct Object References (IDOR)** indicate a vulnerability that occurs when an application provides direct access to objects based on user-supplied input, and it doesn't verify the user's authorization to access those objects.
 

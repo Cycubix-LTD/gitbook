@@ -1,3 +1,10 @@
+---
+title: Stand-alone
+layout: default
+nav_order: 1
+parent: "WebGoat Installation | Web Application Security | Cycubix Docs"
+grand_parent: "WebGoat | Web Application Security Essentials | Cycubix Docs"
+---
 # Stand-alone
 
 ## **WebGoat 8**

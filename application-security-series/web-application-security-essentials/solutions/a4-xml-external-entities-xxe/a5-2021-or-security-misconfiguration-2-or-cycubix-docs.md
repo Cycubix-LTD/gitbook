@@ -1,3 +1,10 @@
+---
+title: "A5:2021 | Security Misconfiguration (2) | Cycubix Docs"
+layout: default
+nav_order: 2
+parent: "A5:2021 | Security Misconfiguration | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # A5:2021 | Security Misconfiguration (2) | Cycubix Docs
 
 #### What is an XML entity? <a href="#what_is_an_xml_entity" id="what_is_an_xml_entity"></a>

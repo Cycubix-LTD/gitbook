@@ -1,3 +1,10 @@
+---
+title: "A6:2021 | Vulnerable and Outdated Components (4) | Cycubix Docs"
+layout: default
+nav_order: 4
+parent: "A6:2021 | Vulnerable and Outdated Components | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # A6:2021 | Vulnerable and Outdated Components (4) | Cycubix Docs
 
 ### Components are everywhere <a href="#components_are_everywhere" id="components_are_everywhere"></a>

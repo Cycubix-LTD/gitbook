@@ -1,3 +1,11 @@
+---
+title: "A7: 2021 | JWT Tokens | Cycubix Docs"
+layout: default
+nav_order: 3
+parent: "A7:2021 | Identity and Authentication Failure | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+has_children: true
+---
 # A7: 2021 | JWT Tokens | Cycubix Docs
 
 ### Concept <a href="#concept" id="concept"></a>
@@ -122,7 +130,7 @@ Now we can replace the token in the cookie and perform the reset again. One thin
 
 For more information take a look at the following video:
 
-{% embed url="https://www.youtube.com/watch?v=wt3UixCiPfo" %}
+[https://www.youtube.com/watch?v=wt3UixCiPfo](https://www.youtube.com/watch?v=wt3UixCiPfo)
 
 ### Code review <a href="#code_review" id="code_review"></a>
 

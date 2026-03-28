@@ -1,3 +1,10 @@
+---
+title: "A3:2023 | Path Transversal (6) | Cycubix Docs"
+layout: default
+nav_order: 6
+parent: "A3:2021 | Path Transversal | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3:2023 | Path Transversal (6) | Cycubix Docs
 
 #### Zip Slip vulnerability <a href="#zip_slip_vulnerability" id="zip_slip_vulnerability"></a>

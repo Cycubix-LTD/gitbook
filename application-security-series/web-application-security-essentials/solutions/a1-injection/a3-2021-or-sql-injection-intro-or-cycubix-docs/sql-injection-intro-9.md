@@ -1,3 +1,10 @@
+---
+title: "A3:2021 | SQL Injection Intro (9) | Cycubix Docs"
+layout: default
+nav_order: 9
+parent: "A3:2021 | SQL Injection Intro | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3:2021 | SQL Injection Intro (9) | Cycubix Docs
 
 The query in the code builds a dynamic query as seen in the previous example. The query is built by concatenating strings making it susceptible to String SQL injection: Try It! String SQL injection.

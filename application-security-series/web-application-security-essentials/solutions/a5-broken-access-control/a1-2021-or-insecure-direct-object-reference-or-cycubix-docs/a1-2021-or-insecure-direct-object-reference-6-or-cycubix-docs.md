@@ -1,18 +1,25 @@
+---
+title: "A1:2021 | Insecure Direct Object Reference (6) | Cycubix Docs"
+layout: default
+nav_order: 6
+parent: "A1:2021 | Insecure Direct Object Reference | Cycubix Docs"
+grand_parent: "A1:2021 | Broken Access Control | Cycubix Docs"
+---
 # A1:2021 | Insecure Direct Object Reference (6) | Cycubix Docs
 
 ### Secure Object References <a href="#secure_object_references" id="secure_object_references"></a>
 
 #### Start with the end in mind <a href="#start_with_the_end_in_mind" id="start_with_the_end_in_mind"></a>
 
-Do you have your access control documented? If you don’t, how can you enforce it?&#x20;
+Do you have your access control documented? If you don’t, how can you enforce it? 
 
 Access control is defined by the business logic that guides the application and/or privacy and other laws.
 
 **Horizontal and Vertical Access Control**
 
-Often times we think of access control in terms of 'roles' (user, power-user, admin, etc.).&#x20;
+Often times we think of access control in terms of 'roles' (user, power-user, admin, etc.). 
 
-However, as noted in the previous exercises, users with the same 'role' can access each other’s data. This is horizontal access control. Both should be enforced.&#x20;
+However, as noted in the previous exercises, users with the same 'role' can access each other’s data. This is horizontal access control. Both should be enforced. 
 
 **Access Control Matrix**
 
@@ -20,13 +27,13 @@ However, as noted in the previous exercises, users with the same 'role' can acce
 
 **Audit Access**
 
-As displayed in the above example, your access control rules should include provisions of what access is logged.&#x20;
+As displayed in the above example, your access control rules should include provisions of what access is logged. 
 
 For example, if a super-user or admin can edit other’s profiles …​ That is something that should be logged. Other examples would include detected violations or attempts to violate access control mechanisms.
 
 #### Using Indrect References <a href="#using_indrect_references" id="using_indrect_references"></a>
 
-Not many applications employ it, but you can use **indirect** references. In this case you can run your references across a hashing, encoding or other function on the server so that the id that the client sees is not the actual reference which the server handles.&#x20;
+Not many applications employ it, but you can use **indirect** references. In this case you can run your references across a hashing, encoding or other function on the server so that the id that the client sees is not the actual reference which the server handles. 
 
 This will reduce efficiency some (a common trade-off for security) and is still subject to being guessed, brute-forced or reverse engineered.
 
@@ -36,15 +43,15 @@ Secure Object References
 
 #### Start with the end in mind <a href="#start_with_the_end_in_mind" id="start_with_the_end_in_mind"></a>
 
-Do you have your access control documented? If you don’t, how can you enforce it?&#x20;
+Do you have your access control documented? If you don’t, how can you enforce it? 
 
 Access control is defined by the business logic that guides the application and/or privacy and other laws.
 
 **Horizontal and Vertical Access Control**
 
-Often times we think of access control in terms of 'roles' (user, power-user, admin, etc.).&#x20;
+Often times we think of access control in terms of 'roles' (user, power-user, admin, etc.). 
 
-However, as noted in the previous exercises, users with the same 'role' can access each other’s data. This is horizontal access control. Both should be enforced.&#x20;
+However, as noted in the previous exercises, users with the same 'role' can access each other’s data. This is horizontal access control. Both should be enforced. 
 
 **Access Control Matrix**
 
@@ -52,13 +59,13 @@ However, as noted in the previous exercises, users with the same 'role' can acce
 
 **Audit Access**
 
-As displayed in the above example, your access control rules should include provisions of what access is logged.&#x20;
+As displayed in the above example, your access control rules should include provisions of what access is logged. 
 
 For example, if a super-user or admin can edit other’s profiles …​ That is something that should be logged. Other examples would include detected violations or attempts to violate access control mechanisms.
 
 #### Using Indrect References <a href="#using_indrect_references" id="using_indrect_references"></a>
 
-Not many applications employ it, but you can use **indirect** references. In this case you can run your references across a hashing, encoding or other function on the server so that the id that the client sees is not the actual reference which the server handles.&#x20;
+Not many applications employ it, but you can use **indirect** references. In this case you can run your references across a hashing, encoding or other function on the server so that the id that the client sees is not the actual reference which the server handles. 
 
 This will reduce efficiency some (a common trade-off for security) and is still subject to being guessed, brute-forced or reverse engineered.
 

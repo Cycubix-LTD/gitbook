@@ -1,3 +1,10 @@
+---
+title: "A3:2021 | SQL Injection Advanced (4) | Cycubix Docs"
+layout: default
+nav_order: 4
+parent: "A3:2021 | SQL Injection Advanced | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3:2021 | SQL Injection Advanced (4) | Cycubix Docs
 
 ### Blind SQL injection <a href="#blind_sql_injection" id="blind_sql_injection"></a>

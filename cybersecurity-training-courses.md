@@ -1,10 +1,9 @@
 ---
-description: >-
-  Visit https://cycubix.com to find out more about our Application Security
-  training courses. We also offer ISC2 Official training for CISSP, SSCP, CCSP,
-  CSSLP and CC certifications.
+description: "Visit https://cycubix.com to find out more about our Application Security training courses. We also offer ISC2 Official training for CISSP, SSCP, CCSP, CSSLP and CC certifications."
+title: Our Cybersecurity Training Courses
+layout: default
+nav_order: 2
 ---
-
 # Our Cybersecurity Training Courses
 
 **Prepare with ISC2 certification with Official training from Cycubix for the most relevant, up-to-date courseware delivered by an ISC2 Authorised Instructor.**
@@ -18,7 +17,7 @@ description: >-
 
 #### At Cycubix we believe training plays a fundamental role in the development and management of a successful cybersecurity strategy.
 
-Our courses cover from general information security awareness, through to practitioner-level training and up to globally recognised certifications. All courses are available as  classroom-based seminars, [private group training](https://cycubix.com/private-group-training/) for organisations with a larger group or team, or as [online cyber security training](https://cycubix.com/live-online-training/).&#x20;
+Our courses cover from general information security awareness, through to practitioner-level training and up to globally recognised certifications. All courses are available as  classroom-based seminars, [private group training](https://cycubix.com/private-group-training/) for organisations with a larger group or team, or as [online cyber security training](https://cycubix.com/live-online-training/). 
 
 ## Application Security Courses
 

@@ -1,3 +1,10 @@
+---
+title: "A7:2021 | Secure Passwords (5) | Cycubix Docs"
+layout: default
+nav_order: 5
+parent: "A7:2021 | Secure Passwords | Cycubix Docs"
+grand_parent: "A7:2021 | Identity and Authentication Failure | Cycubix Docs"
+---
 # A7:2021 | Secure Passwords (5) | Cycubix Docs
 
 #### Are your passwords secure? <a href="#are_your_passwords_secure" id="are_your_passwords_secure"></a>

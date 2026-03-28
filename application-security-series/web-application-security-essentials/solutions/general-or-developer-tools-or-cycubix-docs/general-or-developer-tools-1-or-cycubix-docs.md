@@ -1,3 +1,10 @@
+---
+title: "General | Developer Tools (1) | Cycubix Docs"
+layout: default
+nav_order: 1
+parent: "General | Developer Tools | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # General | Developer Tools (1) | Cycubix Docs
 
 ### Google Chrome Developer Tools <a href="#google_chrome_developer_tools" id="google_chrome_developer_tools"></a>

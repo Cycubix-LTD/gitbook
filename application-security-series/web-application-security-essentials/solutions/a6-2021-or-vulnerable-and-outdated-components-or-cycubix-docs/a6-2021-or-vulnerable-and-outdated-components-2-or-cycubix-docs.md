@@ -1,3 +1,10 @@
+---
+title: "A6:2021 | Vulnerable and Outdated Components (2) | Cycubix Docs"
+layout: default
+nav_order: 2
+parent: "A6:2021 | Vulnerable and Outdated Components | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # A6:2021 | Vulnerable and Outdated Components (2) | Cycubix Docs
 
 ### The Open Source Ecosystems <a href="#the_open_source_ecosystems" id="the_open_source_ecosystems"></a>

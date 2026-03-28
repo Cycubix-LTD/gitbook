@@ -1,3 +1,10 @@
+---
+title: "A10:2021 | Server Side Request Forgery | Cross Site Request Forgery (6) | Cycubix Docs"
+layout: default
+nav_order: 6
+parent: "A10:2021 | Server Side Request Forgery | Cross Site Request Forgery | Cycubix Docs"
+grand_parent: "A10: 2021 | Server Side Request Forgery | Cycubix Docs"
+---
 # A10:2021 | Server Side Request Forgery | Cross Site Request Forgery (6) | Cycubix Docs
 
 **But I only have JSON APIs and no CORS enabled, how can those be susceptible to CSRF?**
@@ -12,7 +19,7 @@ One example why this protection is not enough can be found [here](https://bugs.c
 
 — developer.mozilla.org
 
-&#x20;\
+ \
 For example:
 
 ```
@@ -32,5 +39,5 @@ function postBeacon() {
 
 — Eduardo Vela
 
-&#x20;\
+ \
 Both Firefox and Chrome fixed this issue, but it shows why you should implement a CSRF protection instead of relying on the content-type of your APIs.

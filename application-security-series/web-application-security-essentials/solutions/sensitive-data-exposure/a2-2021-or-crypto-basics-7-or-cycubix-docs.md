@@ -1,3 +1,10 @@
+---
+title: "A2:2021 | Crypto Basics (7) | Cycubix Docs"
+layout: default
+nav_order: 7
+parent: "A2:2021 | Cryptographic Failures | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # A2:2021 | Crypto Basics (7) | Cycubix Docs
 
 A keystore is a place where you store keys. Besides _**keystore**_ the term _**truststore**_ is also used frequently. A truststore is the same thing as a keystore. Only it usually contains only the certificates (so basically only public keys and issuer information) of trusted certificates or certificate authorities.

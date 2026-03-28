@@ -1,3 +1,10 @@
+---
+title: "A1:2021 | Insecure Direct Object Reference (4) | Cycubix Docs"
+layout: default
+nav_order: 4
+parent: "A1:2021 | Insecure Direct Object Reference | Cycubix Docs"
+grand_parent: "A1:2021 | Broken Access Control | Cycubix Docs"
+---
 # A1:2021 | Insecure Direct Object Reference (4) | Cycubix Docs
 
 ## Guessing & Predicting Patterns <a href="#guessing_predicting_patterns" id="guessing_predicting_patterns"></a>
@@ -12,17 +19,17 @@ So, what do you think is a likely pattern to view your own profile explicitly us
 
 ### **Hints**
 
-{% hint style="info" %}
-Look at the previous request for profile, this is similar
-{% endhint %}
+> ℹ️ **Info**
+>
+> Look at the previous request for profile, this is similar
 
-{% hint style="info" %}
-You will need data from the previous request for your own profile
-{% endhint %}
+> ℹ️ **Info**
+>
+> You will need data from the previous request for your own profile
 
-{% hint style="info" %}
-Append your id to the previous request (i.e. .../profile/{yourId})
-{% endhint %}
+> ℹ️ **Info**
+>
+> Append your id to the previous request (i.e. .../profile/{yourId})
 
 ### **Solution**
 
@@ -33,16 +40,16 @@ Append your id to the previous request (i.e. .../profile/{yourId})
 <figure><img src="../../../../../.gitbook/assets/IDOR profile user id (1).png" alt=""><figcaption></figcaption></figure>
 
 * Let's start by opening the Developer Tools. Go to the "Network" tab to monitor network requests when you perform actions on the page.
-* Look for requests that include object IDs in the URL or request parameters.&#x20;
+* Look for requests that include object IDs in the URL or request parameters. 
 
 #### Zap
 
-* Let's check Zap, see the path in the request.&#x20;
+* Let's check Zap, see the path in the request. 
 
 <figure><img src="../../../../../.gitbook/assets/IDOR path.png" alt=""><figcaption></figcaption></figure>
 
-* &#x20;You can know that viewing Profile is to request the URL of "WebGoat/IDOR/profile".
-* We know from the previous exercise that the userid is 2342384.&#x20;
+*  You can know that viewing Profile is to request the URL of "WebGoat/IDOR/profile".
+* We know from the previous exercise that the userid is 2342384. 
 * So, the correct answer is "WebGoat/IDOR/profile/2342384".
 
 <figure><img src="../../../../../.gitbook/assets/IDOR alternate url for profile (1).png" alt=""><figcaption></figcaption></figure>

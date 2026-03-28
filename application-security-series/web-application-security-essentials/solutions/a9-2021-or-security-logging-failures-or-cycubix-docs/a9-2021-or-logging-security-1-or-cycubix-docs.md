@@ -1,3 +1,10 @@
+---
+title: "A9:2021 | Logging Security (1) | Cycubix Docs"
+layout: default
+nav_order: 1
+parent: "A9:2021 | Security Logging Failures | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # A9:2021 | Logging Security (1) | Cycubix Docs
 
 ### Concept <a href="#concept" id="concept"></a>

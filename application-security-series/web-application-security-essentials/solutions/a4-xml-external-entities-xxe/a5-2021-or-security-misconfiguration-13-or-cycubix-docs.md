@@ -1,3 +1,10 @@
+---
+title: "A5:2021 | Security Misconfiguration (13) | Cycubix Docs"
+layout: default
+nav_order: 13
+parent: "A5:2021 | Security Misconfiguration | Cycubix Docs"
+grand_parent: "WebGoat Labs | Web Application Security Essentials | Cycubix Docs"
+---
 # A5:2021 | Security Misconfiguration (13) | Cycubix Docs
 
 #### Find XXE issues with static code analysis <a href="#find_xxe_issues_with_static_code_analysis" id="find_xxe_issues_with_static_code_analysis"></a>

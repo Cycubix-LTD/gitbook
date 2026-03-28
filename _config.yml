@@ -1,0 +1,49 @@
+title: Cycubix Docs
+description: Documentation for students, developers and cyber professionals
+remote_theme: just-the-docs/just-the-docs@v0.10.0
+
+url: "https://cycubix-ltd.github.io"
+baseurl: "/gitbook"
+
+color_scheme: light
+
+aux_links:
+  "Cycubix.com":
+    - "https://cycubix.com"
+  "GitHub":
+    - "https://github.com/Cycubix-LTD/gitbook"
+
+nav_enabled: true
+heading_anchors: true
+back_to_top: true
+back_to_top_text: "Back to top"
+
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+
+footer_content: "&copy; Cycubix Ltd. All rights reserved."
+
+exclude:
+  - SUMMARY.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+plugins:
+  - jekyll-remote-theme
+
+# Enable navigation for deeply nested pages
+nav_external_links: []
+
+# Ensure all collections are rendered
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
